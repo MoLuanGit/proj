@@ -1,0 +1,695 @@
+<div class="header-wrap">
+    <div id="tbBox" class="top-banner-box" style="height: 80px;">
+        <a href="" title="5月会员日">
+            <img src="/src/img/20190608085622_728.jpg" alt="5月会员日">
+        </a>
+    </div>
+    <div class="top-nav">
+        <div class="top-nav-contain">
+            <ul class="top-menu-left">
+                <li class="top-menu-li">
+                    <i class="i-icon red-star"></i>
+                    <a class="top-star" href="javascript:void(0);" title="收藏八百方商城">收藏八百方商城</a>
+                </li>
+                <li class="top-menu-li">
+                    <i class="i-icon red-blog"></i>
+                    <a href="" class="top-wb">关注微博</a>
+                </li>
+            </ul>
+            <ul class="top-menu">
+                <li class="top-menu-li" id="logout-txt">
+                    <p class="welcome-txt">
+                        <em>欢迎来到八百方网上药店</em>
+                        <a class="welcome-login" href="../html/login.html">请登录</a>
+                        <a class="welcome-register" href="../html/register.html">免费注册</a>
+                    </p>
+                </li>
+                <li class="top-menu-li top-member-li" id="login-txt" style="display: none;">
+                    <p class="login-txt top-login">
+                        <em><i class="i-icon icon-level" id="icon-level"></i>您好，</em>
+                        <a href="" class="top-account" id="topAccount"></a>
+                        <i class="i-icon icon-tri"></i>
+                    </p>
+                    <div class="top-member-box" style="height: 93px;width: 213px;">
+                        <div class="login-account-box">
+                            <i class="i-icon icon-account"></i>
+                            <div class="login-account-info">
+                                <p>成长值：<span id="account_growthVal"></span></p>
+                                <i class="i-icon account-level" id="account-level"></i>
+                            </div>
+                            <a href="javascript:;" class="login-account-exit">退出</a>
+                        </div>
+                        <a href="" class="login-account-btn">会员大本营</a>
+                    </div>
+                </li>
+                <li class="top-line"></li>
+                <li class="top-menu-li top-member-li">
+                    <a href="" class="top-member">我的八百方<i class="i-icon icon-tri"></i></a>
+                    <div class="top-member-box">
+                        <a href="">我的订单</a>
+                        <a href="">我的红包</a>
+                        <a href="">我的积分</a>
+                        <a href="">我的关注</a>
+                    </div>
+                </li>
+                <li class="top-line"></li>
+                <li class="top-menu-li">
+                    <i class="i-icon red-cart"></i>
+                    <a href="" class="top-cart">购物车<span class="hover-color" id="topCarCount">0</span>件</a>
+                </li>
+                <li class="top-line"></li>
+                <li class="top-menu-li top-member-li">
+                    <a href="javascript:;" class="top-phone"><i class="i-icon red-phone"></i>手机购药</a>
+                    <div class="top-member-box" style="height: 220px;width: 407px;">
+                        <img src="/src/img/topcode3.jpg" alt="手机版二维码">
+                        <img src="/src/img/topcode2.png" alt="手机版二维码">
+                    </div>
+                </li>
+                <li class="top-line"></li>
+                <li class="top-menu-li top-member-li">
+                    <a target="_blank" href="javascript:;" class="top-member">
+                        <i class="i-icon red-website"></i>网站导航<i class="i-icon icon-tri"></i>
+                    </a>
+                    <div class="top-member-box" style="width:100%">
+                        <a href="">健康资讯</a>
+                        <a href="">健康问答</a>
+                        <a href="">产品库</a>
+                        <a href="">品牌库</a>
+                        <a href="">通用名库</a>
+                        <a href="">搜索词库</a>
+                        <a href="">帮助中心</a>
+                    </div>
+                </li>
+                <li class="top-line"></li>
+                <li class="top-menu-li">
+                    <i class="i-icon red-kefu"></i>
+                    <em>客服热线：400-8183-666</em>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="top-main">
+        <div class="top-blank" id="top-blank"></div>
+        <div class="top-search" id="top-search">
+            <div class="search-contain">
+                <div id="search-contain-1">
+                    <form class="search-form" id="search-from">
+                        <input id="key" type="text" class="search-box" placeholder="药品名称/功效/症状" value=""
+                            autocomplete="off">
+                        <input type="submit" class="search-btn" value="搜索">
+                    </form>
+                    <div id="autocomplete" class="autocomplete"></div>
+                </div>
+                <div id="search-recommend" class="recommend">
+                    <a href="" title="金戈">金戈</a>
+                    <a href="" title="益安宁丸">益安宁丸</a>
+                    <a href="" title="万艾可 伟哥">万艾可 伟哥</a>
+                    <a href="" title="金克槐耳">金克槐耳</a>
+                    <a href="" title="恩必普">恩必普</a>
+                    <a href="" title="拜新同">拜新同</a>
+                    <a href="" title="舒筋健腰丸">舒筋健腰丸</a>
+                    <a href="" title="肾宝片">肾宝片</a>
+                </div>
+            </div>
+        </div>
+        <h1 class="top-logo">
+            <a href="">
+                <img src="/src/img/800fang-logo.jpg" alt="八百方 正品药">
+            </a>
+        </h1>
+        <div class="top-ensure">
+            <a href="" class="top-z">
+                <i class="i-icon icon-z"></i>
+                <em>国A20140001</em>
+            </a>
+            <a class="top-bao" href="">
+                <i class="i-icon icon-bao"></i>
+                <em>正品保险</em>
+            </a>
+        </div>
+    </div>
+    <div class="top-siteNav">
+        <!--左侧分类-->
+        <div class="main-sort">
+            <a class="all-sort" href="">
+                <i class="i-icon nor-allSort"></i>
+                全部商品分类
+            </a>
+            <div class="sort-list">
+                <div class="sort-list-bg"></div>
+                <ul class="sort-item">
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon nor-pill"></i>
+                            中西成药
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon ded-pill"></i>
+                            专科用药
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon bj-pill"></i>
+                            营养保健
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon yl"></i>
+                            医疗器械
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon cr"></i>
+                            成人用品
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon zy"></i>
+                            中药养生
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon mr"></i>
+                            美容护理
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon glasses"></i>
+                            隐形眼镜
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sort-item-box">
+                        <a class="sib-abox" href="">
+                            <i class="i-icon health"></i>
+                            体检套餐
+                        </a>
+                        <div class="sort-detail-box">
+                            <div class="sort-detail-bg"></div>
+                            <div class="sort-detail-list">
+                                <dl>
+                                    <dt>
+                                        <a href="">心脑血管<b>&gt;</b></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="">高血压</a>
+                                        <a href="">糖尿病</a>
+                                        <a href="">冠心病</a>
+                                        <a href="">高血脂</a>
+                                        <a href="">中风偏瘫</a>
+                                        <a href="">静脉曲张</a>
+                                        <a href="">心力衰竭</a>
+                                        <a href="">动脉硬化</a>
+                                        <a href="">低血压</a>
+                                        <a href="">脑血栓</a>
+                                        <a href="">心绞痛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="sort-detail-recommend">
+                                <div class="rec-brank">
+                                    <div class="rb-tit">推荐品牌</div>
+                                    <div class="b-brank">
+                                        <a href=""><img alt="同仁堂" src="/src/img/sort/zx_2.jpg"></a>
+                                        <a href=""><img alt="东阿阿胶" src="/src/img/sort/zx_4.jpg"></a>
+                                        <a href=""><img alt="汇仁" src="/src/img/sort/zx_5.jpg"></a>
+                                        <a href=""><img alt="白云山" src="/src/img/sort/zx_1.jpg"></a>
+                                        <a href=""><img alt="三九" src="/src/img/sort/zx_7.jpg"></a>
+                                        <a href=""><img alt="太极" src="/src/img/sort/zx_8.jpg"></a>
+                                        <a href=""><img alt="敬修堂" src="/src/img/sort/zx_6.jpg"></a>
+                                        <a href=""><img alt="陈李济" src="/src/img/sort/zx_3.jpg"></a>
+                                    </div>
+                                </div>
+                                <div class="rec-shop">
+                                    <div class="rs-tit">推荐商家</div>
+                                    <div class="b-shop">
+                                        <a href="">博爱连锁药店</a>
+                                        <a href="">乡亲大药房</a>
+                                        <a href="">云开亚美</a>
+                                        <a href="">先声再康大药房</a>
+                                        <a href="">北京好药师大药房</a>
+                                        <a href="">新华大药房</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--顶部导航主体-->
+        <div class="main-nav">
+            <a href="" class="main-nav-item">首页</a>
+            <a href="" class="main-nav-item">远离三高</a>
+            <a href="" class="main-nav-item">男科药馆</a>
+            <a href="" class="main-nav-item">乙肝</a>
+            <a href="" class="main-nav-item">肿瘤科</a>
+            <a href="" class="main-nav-item">精神健康</a>
+            <a href="" class="main-nav-item new">抗癌新药</a>
+            <a href="" class="main-nav-item hot">丙肝新药</a>
+            <a href="" class="main-nav-item">环球制药</a>
+        </div>
+    </div>
+</div>

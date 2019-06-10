@@ -1,0 +1,156 @@
+/* 协议 */
+.pop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.cls {
+    clear: both;
+}
+
+.cont {
+    float: left;
+    height: auto;
+}
+
+.protocol_cont {
+    width: 800px;
+    height: 570px;
+}
+/* 文字排版 */
+.proto_title {
+    height: 30px;
+    line-height: 40px;
+    width: 800px;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+
+.proto_cont {
+    margin: 10px 15px 15px 15px;
+    border: 1px solid #DFDDDE;
+    height: 515px;
+    color: #000;
+    overflow: auto;
+}
+
+.proto_cont h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.proto_cont h2 {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.proto_cont p {
+    line-height: 20px;
+    text-indent: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.proto_cont ul {
+    padding: 0 60px;
+    line-height: 20px;
+}
+
+.proto_cont h3 {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-indent: 25px;
+}
+
+.protocol_box {
+    position: relative;
+    width: 800px;
+    background: white;
+    border-radius: 3px;
+}
+
+.protocol_box .hd {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e9e9e9;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.protocol_box .hd .tit {
+    line-height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* 关闭图标 */
+.protocol_box .hd .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/close.png) no-repeat;
+    cursor: pointer;
+}
+
+.protocol_wrap {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.protocol_wrap .check {
+    margin: 10px 0 5px 15px;
+}
+
+.protocol_wrap .check input {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.protocol_wrap .bottom_btn div {
+    float: right;
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 15px 15px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.protocol_wrap .bottom_btn .affirm_btn {
+    border: 1px solid #f1156f;
+    color: white;
+    background-color: #f1156f;
+}

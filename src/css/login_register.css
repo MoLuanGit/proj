@@ -1,0 +1,307 @@
+.top-siteNav,
+#tbBox,
+#top-search {
+    display: none;
+}
+
+#top-blank {
+    display: block;
+}
+
+.w1190 {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -25px;
+}
+
+.clear_10 {
+    width: 1px;
+    height: 10px;
+    clear: both;
+}
+
+.b_login {
+    margin: 14px 0 55px 0;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    background-position: center left;
+    background-repeat: repeat-y;
+}
+
+/*登录框*/
+.b_login .ly_rt,
+.b_login .ly_r {
+    float: right;
+    width: 370px;
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+.mod_reglog .bd {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+    zoom: 1;
+    box-sizing: border-box;
+}
+
+.mod_reglog .bd .hd-tab {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.mod_reglog .bd .hd-tab .btn-hd-tel,
+.mod_reglog .bd .hd-tab .btn-hd-email,
+.mod_reglog .bd .hd-tab .btn-hd-sign,
+.mod_reglog .bd .hd-tab .btn-hd-login {
+    display: inline-block;
+    width: 48.5%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mod_reglog .bd .hd-tab .current {
+    color: #e51a6c;
+}
+
+.mod_reglog .bd .hd-tab .gap {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background-color: #d6d6d6;
+    vertical-align: middle;
+}
+
+.b_login .login-main {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login-box .form-inline-tel,
+.login-box .form-inline-email,
+.login-box .form-inline-pwd,
+.login-box .form-inline-note,
+.login-box .form-sign-tel,
+.login-box .form-sign-note,
+.login-box .form-sign-pwd {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    margin-top: 10px;
+    background-color: #e7e7e7;
+    box-sizing: border-box;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    line-height: 38px;
+}
+
+.login-box .form-inline-tel img,
+.login-box .form-inline-email img,
+.login-box .form-inline-pwd img,
+.login-box .form-inline-note img,
+.login-box .form-sign-tel img,
+.login-box .form-sign-note img,
+.login-box .form-sign-pwd img {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+
+.login-box .form-inline-tel input,
+.login-box .form-inline-email input,
+.login-box .form-inline-pwd input,
+.login-box .form-inline-note input,
+.login-box .form-sign-tel input,
+.login-box .form-sign-note input,
+.login-box .form-sign-pwd input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid transparent;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 38px;
+    display: inline-block;
+    font-family: "microsoft yahei";
+}
+
+input::-webkit-input-placeholder {
+    color: #bbb;
+}
+
+input:-moz-placeholder {
+    color: #bbb;
+}
+
+input::-moz-placeholder {
+    color: #bbb;
+}
+
+input:-ms-input-placeholder {
+    color: #bbb;
+}
+
+.login-box .form-inline-note .get-note,
+.login-box .form-sign-note .get-note {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #f1639d;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.login-box .form-inline-pwd,
+.login-box .form-inline-note,
+.login-box .form-sign-note,
+.login-box .form-sign-pwd,
+.login-box .sign-btn-submit {
+    margin-top: 20px !important;
+}
+
+.login-box .form-inline-pwd .change-eye {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 14%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.login-box .form-inline-pwd .eye-show {
+    background: url(../img/pwd-eye.png) no-repeat white center;
+}
+
+.login-box .form-inline-pwd .eye-hide {
+    background: url(../img/hide-eye.png) no-repeat white center;
+}
+
+.login-box .form-change-forget,
+.login-box .auto_log {
+    width: 100%;
+    margin-top: 10px;
+    color: #666;
+    overflow: auto;
+}
+
+a.note-text:hover,
+a.pwd-text:hover {
+    color: #13489d;
+}
+
+.login-box .form-change-forget .change-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    border-radius: 8px;
+    color: white;
+    background-color: #cccccc;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.login-box .form-change-forget .forget-pwd {
+    float: right;
+}
+
+.login-box .login-btn-submit,
+.login-box .sign-btn-submit {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: #f1156f;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-box .auto_log .status,
+.bind-content .auto_bind .status {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    background-color: #fff;
+    -webkit-appearance: none;
+    border: 1px solid #999;
+    border-radius: 8px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.login-box .auto_log .status:checked {
+    border: 1px solid #f1156f;
+    background: #f1156f url(../img/right.png) no-repeat 2px 3px;
+}
+
+.login-box .auto_log a {
+    float: right;
+}
+
+/* login-other */
+.mod_reglog .bd .login-other {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    border-top: 1px solid #e9e9e9;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #f8f8f8;
+}
+
+.mod_reglog .bd .login-other li {
+    float: left;
+    width: 91.75px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.mod_reglog .bd .login-other li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mod_reglog .bd .login-other li .gaps {
+    display: inline-block;
+    float: right;
+    width: 1px;
+    height: 12px;
+    margin-top: 21px;
+    line-height: 52px;
+    background-color: #bdbdbd;
+}
+

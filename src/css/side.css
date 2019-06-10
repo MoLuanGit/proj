@@ -1,0 +1,490 @@
+.sidebar-wrap {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 100%;
+}
+/* 背景 */
+.sidebar-wrap .sidebar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    background-color: #40454d;
+    filter: alpha(opacity=95);
+}
+/* 主体 */
+.sidebar-wrap .sidebar-main {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    width: 100%;
+}
+/* 分割线 */
+.sidebar-wrap .sidebar-main .sidebar-line {
+    width: 18px;
+    height: 0;
+    margin: 4px auto;
+    border-bottom: 1px solid #949494;
+}
+/* 内容 */
+.sidebar-wrap .sidebar-main .sidebar-content {
+    position: relative;
+    width: 100%;
+    margin-top: -1px;
+    padding: 10px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+.sidebar-wrap .sidebar-main a{
+    text-decoration: none;
+}
+/* 图标 */
+.sidebar-wrap .sidebar-main .i-icon {
+    display: block;
+    margin: 0 0 5px 6px;
+}
+
+.i-icon {
+    display: inline-block;
+    background: url(../img/icon/i-icon.png) no-repeat;
+}
+
+.white-cart {
+    width: 21px;
+    height: 18px;
+    background-position: -23px -188px;
+}
+
+.white-service {
+    width: 20px;
+    height: 19px;
+    background-position: -23px -169px;
+}
+
+.white-login {
+    width: 18px;
+    height: 18px;
+    background-position: -23px -151px;
+}
+/* 文字 */
+.sidebar-wrap .sidebar-main .sidebar-cart p,
+.sidebar-wrap .sidebar-main .sidebar-service p,
+.sidebar-wrap .sidebar-main .sidebar-login p{
+    font-family: microsoft yahei;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar-wrap .sidebar-main .sidebar-content:hover {
+    background-color: #77818b;
+}
+/* 购物车 */
+.cart-box {
+    position: absolute;
+    top: 0;
+    left: 36px;
+    z-index: -1;
+    width: 270px;
+    height: 410px;
+    background-color: #f2f2f2;
+    transition: all .5s;
+}
+
+.sidebar-wrap li:hover .cart-drawer {
+    left: -270px;
+}
+
+.cart-title-box {
+    overflow: hidden;
+    padding: 0 33px;
+    border-bottom: 1px solid #dedede;
+}
+
+.cart-title-box .black-cart {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.black-cart {
+    width: 21px;
+    height: 20px;
+    background-position: -52px 0;
+}
+
+.cart-title-box p {
+    padding: 10px 0;
+    text-align: left !important;
+    letter-spacing: normal !important;
+    color: #666 !important;
+    font-size: 14px;
+}
+.cart-box ul {
+    height: 324px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.cart-box ul li {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px 20px 10px 70px;
+}
+.cart-empty {
+    text-align: center;
+    padding: 10px 0 !important;
+    background: transparent !important;
+    font-size: 12px;
+}
+.cart-bottom-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #dedede;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cart-bottom-box p, .cart-bottom-box span {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    color: #666 !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+    min-width: 0 !important;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.sidebar-wrap .sidebar-main .sidebar-cart span {
+    line-height: 20px;
+    display: inline-block;
+    min-width: 14px;
+    margin-top: 5px;
+    margin-left: -5px;
+    padding: 0 3px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #e6186f;
+    text-align: center;
+}
+.cart-bottom-box span.red {
+    color: #f1156f !important;
+}
+.cart-js-btn {
+    background-color: #f1156f;
+    padding: 3px 15px;
+    color: #fff;
+    float: right;
+    vertical-align: middle;
+}
+
+/* 客服咨询 */
+.sidebar-wrap .drawer-handle {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    display: none;
+    width: 0;
+    height: 0;
+    border:5px solid transparent;
+    border-left-color: #fff;
+}
+.sidebar-wrap .sidebar-main .sidebar-content:hover .drawer-handle {
+    display: block;
+}
+
+.sidebar-wrap .service-drawer {
+    top: 0;
+    text-align: center;
+    height: 275px;
+    transform: translateZ(0);
+    position: absolute;
+    z-index: -2;
+    bottom: -1px;
+    left: 240px;
+    width: 200px;
+    cursor: default;
+    transition: all .4s;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px #d4d4d4;
+}
+.sidebar-wrap li:hover .service-drawer {
+    left: -200px;
+}
+.sidebar-wrap .service-drawer .service-title {
+    position: relative;
+}
+.sidebar-wrap .service-drawer .service-title .service-icon{
+    line-height: 38px;
+    color: #333;
+    text-align: left;
+    padding-left: 30px;
+    background: url(../img/icon/index_icon_01.png) no-repeat 5px center;
+}
+
+.sidebar-wrap .service-drawer .btn-box {
+    overflow: hidden;
+    clear: both;
+}
+.sidebar-wrap .service-drawer .btn-box a {
+    position: relative;
+    width: 33.3333%;
+    float: left;
+    color: #fff;
+    padding-top: 35px;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sidebar-wrap .service-drawer .btn-box .ng-btn {
+    background: #ef584d url(../img/icon/index_icon_08.png) no-repeat center 10px;
+}
+.sidebar-wrap .service-drawer .btn-box .zh-btn {
+    background: #4680de url(../img/icon/index_icon_09.png) no-repeat center 10px;
+}
+.sidebar-wrap .service-drawer .btn-box .sh-btn {
+    background: #e45092 url(../img/icon/index_icon_05.png) no-repeat center 10px;
+}
+
+/* 遮罩 */
+.sidebar-wrap .service-drawer .btn-box a .mask-lay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    display: none;
+    background: rgba(0, 0, 0, .2);
+}
+.sidebar-wrap .service-drawer .btn-box a:hover .mask-lay {
+    display: block;
+}
+
+.sidebar-wrap .sidebar-main .service-drawer .guan-zhu {
+    padding-top: 10px;
+    text-align: center;
+}
+.sidebar-wrap .sidebar-main .service-drawer .guan-zhu img{
+    margin:0 auto;
+}
+
+.sidebar-wrap .sidebar-main .service-drawer .guan-zhu .code_tips{
+    color:#828282;
+    font-family: "microsoft yahei";
+    letter-spacing: inherit;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* 登录注册 */
+.sidebar-wrap .login-drawer{
+    top: 0;
+    text-align: center;
+    height: 120px;
+    transform: translateZ(100);
+    position: absolute;
+    z-index: -2;
+    bottom: -1px;
+    left: 20px;
+    width: 200px;
+    cursor: default;
+    transition: all .4s;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px #d4d4d4;
+}
+.sidebar-wrap li:hover .login-drawer {
+    left: -200px;
+}
+.sidebar-wrap .login-box {
+    position: relative;
+    height: 90px;
+    padding-left: 88px;
+    text-align: left;
+    border-bottom: 1px dotted #acb2b2;
+}
+.sidebar-wrap .login-box img {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-wrap .sidebar-main .sidebar-login .login-box p {
+    font-family: "microsoft yahei";
+    line-height: 22px;
+    padding-top: 18px;
+    color: #969696;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-left: -15px;
+}
+.sidebar-wrap .sidebar-main .sidebar-login a {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    margin-right: 5px;
+    color: #5d5d5d;
+    text-decoration:underline;
+}
+.sidebar-wrap .sidebar-main .sidebar-login .lb{
+    line-height: 29px;
+    height: 29px;
+    text-align: left;
+    text-indent: 20px;
+    color: #909090;
+    font-size: 12px;
+    letter-spacing: 0;
+    font-weight: 200;
+}
+.sidebar-wrap .sidebar-main .sidebar-login a:hover {
+    color: #e84489;
+}
+
+/* 登录之后显示的用户信息 */
+.login-drawer .login {
+    padding: 5px 10px 10px 15px;
+}
+.login-drawer .login .user-account {
+    height: 65px;
+    padding-left: 8px;
+    text-align: left;
+}
+
+.login-drawer .login .user-account p {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px;
+    color: #434343;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.sidebar-wrap .login .user-account a {
+    text-decoration: none;
+    color: #434343;
+}
+.sidebar-wrap .login .user-account span {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    line-height: 34px;
+    color: #1562b6;
+}
+.sidebar-wrap .login .user-account b {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    margin-top: -2px;
+    margin-right: 3px;
+    padding-right: 1px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: -1px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #1562b6;
+}
+
+.sidebar-wrap .login .user-info {
+    overflow: hidden;
+    height: 42px;
+}
+.sidebar-wrap .login .user-info li {
+    line-height: 0;
+    float: left;
+    width: 58px;
+    margin-left: -1px;
+    border-left: 1px solid #d0d0d0;
+}
+.sidebar-wrap .login .user-info a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.sidebar-wrap .login .user-info span {
+    font-family: "microsoft yahei";
+    line-height: 16px;
+    color: #e61e73;
+    text-align: center;
+    display: block;
+}
+.sidebar-wrap .login .user-info p {
+    font-family: "microsoft yahei";
+    line-height: 26px;
+    color: #999;
+    text-align: center;
+}
+
+/* 回到顶部 */
+.sidebar-wrap .sidebar-extra {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+.sidebar-wrap .sidebar-extra li {
+    line-height: 36px;
+    position: relative;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.sidebar-wrap .sidebar-extra a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sidebar-wrap .sidebar-extra .i-icon {
+    margin-top: 10px;
+}
+
+.icon-top {
+    width: 22px;
+    height: 19px;
+    background-position: -23px -206px;
+}
+.sidebar-wrap .sidebar-extra li:hover {
+    background-color: #77818b;
+}
+
+/* 左下角小广告 */
+.kefu_pop_mid{
+    position: fixed;
+    width: 86px;
+    height: 140px;
+    background: transparent url(../img/kefu_pop_mid.png) 0 0 no-repeat;
+    background-size: 86px 140px;
+    z-index: 2000;
+    bottom: 10px;
+    left: 100px;
+    opacity: 0;
+}
+.kefu_pop_mid .close{
+    display: block;
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:0;
+    right:0;
+}

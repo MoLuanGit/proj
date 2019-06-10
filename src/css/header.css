@@ -1,0 +1,832 @@
+.top-banner-box a {
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: #010309;
+    margin: 0 auto;
+}
+
+.top-banner-box img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* top-nav */
+.header-wrap .top-nav {
+    line-height: 35px;
+    height: 35px;
+    border: 1px solid #e9e9e9;
+    background-color: #f7f7f7;
+}
+
+.header-wrap .top-nav .top-nav-contain {
+    line-height: inherit;
+    position: relative;
+    z-index: 3;
+    width: 1190px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.header-wrap .top-nav .top-menu-left {
+    line-height: inherit;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: inherit;
+}
+
+/* top-menu */
+.header-wrap .top-nav .top-menu {
+    line-height: inherit;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    height: inherit;
+}
+
+.header-wrap .top-nav .top-menu-left .top-menu-li {
+    margin-left: 0;
+    margin-right: 16px;
+    position: relative;
+    font-family: "microsoft yahei";
+    line-height: inherit;
+    float: left;
+    height: inherit;
+    color: #a8a8a8;
+}
+
+.header-wrap .top-nav .top-menu li {
+    position: relative;
+    font-family: "microsoft yahei";
+    line-height: inherit;
+    float: left;
+    height: inherit;
+    margin-left: 10px;
+    color: #a8a8a8;
+    margin-right: 0px;
+}
+
+.header-wrap .top-nav .i-icon {
+    margin-top: -3px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.header-wrap .top-nav .red-star {
+    width: 13px;
+    height: 13px;
+    background-position: -87px -31px;
+}
+
+.header-wrap .top-nav .red-blog {
+    width: 18px;
+    height: 14px;
+    background-position: -53px -24px;
+}
+
+.header-wrap .top-nav .top-star,
+.header-wrap .top-nav .top-wb {
+    display: inline-block;
+    height: inherit;
+    text-decoration: none;
+    color: #666;
+}
+
+.header-wrap .top-nav .top-menu .login-txt,
+.header-wrap .top-nav .top-menu .welcome-txt {
+    font-family: "microsoft yahei";
+    line-height: inherit;
+    height: inherit;
+    color: #666;
+}
+
+.header-wrap .top-nav .top-member-li {
+    position: relative;
+    z-index: 1;
+}
+
+.header-wrap .top-nav .top-member-box {
+    font-family: "microsoft yahei";
+    position: absolute;
+    z-index: 3;
+    top: 35px;
+    right: 0;
+    display: none;
+    padding: 5px 0;
+    color: #525252;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+    background-color: #fff;
+}
+
+.header-wrap .top-nav .top-menu .top-member-box a {
+    font-family: inherit;
+    line-height: 24px;
+    display: block;
+    height: 24px;
+    display: block;
+    width: 100%;
+    padding-right: 28px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-wrap .top-nav .top-menu-li em {
+    font-family: Verdana;
+    font-style: normal;
+    color: #747474;
+}
+
+.header-wrap .top-nav .welcome-login {
+    margin: 0 6px 0 10px;
+    text-decoration: none;
+    color: #e6186f;
+}
+
+.header-wrap .top-nav .welcome-login:visited {
+    color: #e6186f;
+}
+
+.header-wrap .top-nav .welcome-register,
+.header-wrap .top-nav .top-phone {
+    color: #666;
+}
+
+.header-wrap .top-nav a {
+    text-decoration: none;
+}
+
+.header-wrap .top-nav .top-menu .top-line {
+    float: left;
+    width: 0;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.header-wrap .top-nav .top-menu .top-member {
+    padding: 0 8px;
+    border-right: 1px solid #f7f7f7;
+    border-left: 1px solid #f7f7f7;
+    height: 100%;
+    display: block;
+    color: #666;
+}
+
+.header-wrap .top-nav .top-menu .icon-tri {
+    width: 5px;
+    height: 3px;
+    background-position: -23px 0;
+    margin: -2px 0 0 3px;
+    transition: all .3s;
+    vertical-align: middle;
+}
+
+.header-wrap .top-nav .top-member-li:hover .icon-tri {
+    transform: rotate(180deg);
+}
+
+.header-wrap .top-nav .top-member-li:hover .top-member {
+    color: #e6186f;
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    background-color: #fff;
+}
+
+.header-wrap .top-nav .top-member-li:hover .top-member-box {
+    display: block;
+    transition: all .3s;
+}
+
+.header-wrap .top-nav .top-cart span {
+    margin: 0 1px;
+}
+
+.hover-color {
+    color: #e6186f;
+}
+
+.top-member-box img {
+    display: inline-block;
+}
+
+.header-wrap .top-nav .red-cart {
+    width: 15px;
+    height: 16px;
+    background-position: -85px -44px;
+}
+
+.header-wrap .top-nav .red-phone {
+    width: 12px;
+    height: 14px;
+    background-position: -90px -62px;
+}
+
+.header-wrap .top-nav .red-website {
+    width: 17px;
+    height: 14px;
+    background-position: -85px -78px;
+}
+
+.header-wrap .top-nav .red-kefu {
+    width: 14px;
+    height: 14px;
+    background-position: -86px -94px;
+}
+
+.header-wrap .top-nav a:hover {
+    color: #e6186f;
+}
+
+.header-wrap .top-nav .top-member-box a:hover {
+    color: #e6186f;
+}
+
+/* top-main */
+.header-wrap .top-main {
+    width: 1190px;
+    height: 58px;
+    margin: 36px auto 24px;
+}
+
+/* 在首页隐藏 */
+.header-wrap .top-main .top-blank {
+    float: left;
+    width: 100%;
+    display: none;
+    height: inherit;
+}
+
+/* 在首页显示 */
+.header-wrap .top-main .top-search {
+    float: left;
+    width: 100%;
+    height: inherit;
+}
+
+.header-wrap .top-main .top-search .search-contain {
+    position: relative;
+    z-index: 2;
+    height: 58px;
+    margin: 3px 282px 0 280px;
+}
+
+.header-wrap .top-main .top-search .search-contain>div {
+    overflow: hidden;
+}
+
+.header-wrap .top-main .search-form {
+    width: 546px;
+    height: 28px;
+    border: 2px solid #13489d;
+}
+
+.header-wrap .top-main .search-form .search-box {
+    font-family: "microsoft yahei";
+    font-size: 13px;
+    line-height: 28px;
+    float: left;
+    width: 440px;
+    height: 28px;
+    text-indent: 5px;
+    border: none;
+    background: 0 0;
+}
+
+.header-wrap .top-main .search-form .search-btn {
+    font-family: "microsoft yahei";
+    font-size: 15px;
+    line-height: 26px;
+    float: left;
+    width: 106px;
+    height: 28px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #13489d;
+    cursor: pointer;
+}
+
+.header-wrap .top-main .autocomplete {
+    position: absolute;
+    z-index: 2;
+    top: 31px;
+    left: 0;
+    display: none;
+    width: 441px;
+    border: 1px solid #1562b6;
+}
+
+.header-wrap .top-main .autocomplete li {
+    display: block;
+    height: 30px;
+    color: #333;
+    background-color: #fff;
+}
+
+.header-wrap .top-main .autocomplete li a {
+    font-family: "microsoft yahei";
+    font-size: 13px;
+    line-height: 30px;
+    display: block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.header-wrap .top-main .autocomplete .cur {
+    color: #fff;
+    background: #1562b6;
+}
+
+.header-wrap .top-main .autocomplete .cur a {
+    color: #fff;
+}
+
+.header-wrap .top-main .recommend {
+    line-height: 20px;
+    overflow: hidden;
+    width: 550px;
+    margin-top: 8px;
+}
+
+.header-wrap .top-main .recommend a {
+    line-height: 13px;
+    display: inline-block;
+    height: 14px;
+    margin-left: -11px;
+    padding: 0 21px 0 10px;
+    text-decoration: none;
+    color: #b7b7b7;
+    border-left: 1px solid #b7b7b7;
+    margin-bottom: 5px;
+}
+
+.header-wrap .top-main .recommend a:hover {
+    text-decoration: underline;
+    color: #e6186f;
+}
+
+.header-wrap .top-main .top-logo {
+    display: block;
+    float: left;
+    width: 190px;
+    height: inherit;
+    margin-left: -100%;
+}
+
+.header-wrap .top-member-box .top-main .top-logo {
+    margin-left: 0;
+}
+
+.header-wrap .top-main .top-ensure {
+    float: left;
+    width: 272px;
+    height: inherit;
+    margin-left: -272px;
+}
+
+.header-wrap .top-main .top-ensure .i-icon {
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.header-wrap .top-main .top-ensure .icon-z {
+    width: 34px;
+    height: 38px;
+    background-position: -3px -466px;
+}
+
+.header-wrap .top-main .top-ensure .icon-bao {
+    width: 34px;
+    height: 38px;
+    background-position: -3px -504px;
+}
+
+.header-wrap .top-main .top-ensure a,
+.header-wrap .top-main .top-ensure p {
+    display: block;
+    float: left;
+    height: 38px;
+    text-decoration: none;
+}
+
+.header-wrap .top-main .top-ensure em {
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 38px;
+    color: #6c6c6c;
+}
+
+.header-wrap .top-main .top-ensure .i-icon {
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.header-wrap .top-main .top-ensure .top-z {
+    margin-right: 28px;
+}
+
+/*商家搜索*/
+.header-wrap .top-main .search-shop-form {
+    width: 464px;
+    float: left;
+}
+
+.header-wrap .top-main .search-shop-form .search-box {
+    width: 388px;
+}
+
+.header-wrap .top-main .search-shop-form .search-btn {
+    width: 76px;
+}
+
+.header-wrap .top-main .search-shop-btn {
+    font-family: "microsoft yahei";
+    font-size: 15px;
+    line-height: 30px;
+    float: left;
+    width: 76px;
+    height: 32px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #e6186f;
+    cursor: pointer;
+    float: left;
+    margin-left: 2px;
+}
+
+.header-wrap .top-main .autocomplete-shop {
+    width: 389px;
+}
+
+/*头部导航*/
+.header-wrap .top-siteNav {
+    width: 1190px;
+    height: 46px;
+    margin: 24px auto 0;
+}
+
+.header-wrap .top-siteNav .main-nav {
+    float: left;
+    height: 38px;
+    margin-top: 8px;
+    with: 1000px;
+}
+
+.header-wrap .top-siteNav .main-nav span {
+    position: relative;
+    font-family: microsoft yahei;
+    font-size: 15px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    width: 106px;
+    height: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+}
+
+.header-wrap .top-siteNav .main-nav a {
+    position: relative;
+    font-family: microsoft yahei;
+    font-size: 15px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    width: 106px;
+    height: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+}
+
+.header-wrap .top-siteNav .main-nav a.new::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 27px;
+    height: 20px;
+    display: block;
+    background: url(../img/sort/new_tag.gif) no-repeat center center;
+}
+
+.header-wrap .top-siteNav .main-nav a.hot::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 14px;
+    width: 27px;
+    height: 20px;
+    display: block;
+    background: url(../img/sort/hot_tag.gif) no-repeat center center;
+}
+
+.header-wrap .top-siteNav .main-nav a:hover {
+    color: #e6186f;
+}
+
+/*头部导航 --> 导航全部分类*/
+.header-wrap .top-siteNav .main-sort {
+    position: relative;
+    z-index: 2000;
+    float: left;
+    width: 190px;
+    height: inherit;
+}
+
+.header-wrap .top-siteNav .main-sort .all-sort {
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    line-height: 46px;
+    display: block;
+    height: inherit;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    background-color: #14489c;
+}
+
+.header-wrap .top-siteNav .main-sort .sort-list {
+    position: absolute;
+    z-index: 2000;
+    top: 46px;
+    left: 0;
+    width: 190px;
+    height: 480px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    /* display: none; */
+}
+
+.header-wrap .top-siteNav .main-sort:hover .sort-list {
+    display: block;
+}
+
+.header-wrap .top-siteNav .sort-list-bg {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: .75;
+    background-color: #000;
+    filter: alpha(opacity=75);
+}
+
+.header-wrap .top-siteNav .sort-item-box {
+    height: 50px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.header-wrap .top-siteNav .sort-item-box:hover .sib-abox {
+    color: #13489d;
+    background-color: #fff;
+}
+/* 图标 */
+.header-wrap .top-siteNav .nor-allSort {
+    width: 16px;
+    height: 13px;
+    background-position: -55px -40px;
+    margin-left: 20px;
+    margin-right: 16px;
+}
+.header-wrap .top-siteNav .sort-item-box .nor-pill {
+    width: 15px;
+    height: 21px;
+    background-position: 0 -12px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .nor-pill {
+    background-position: 0 -34px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .ded-pill {
+    width: 16px;
+    height: 15px;
+    background-position: 0 -55px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .ded-pill {
+    background-position: 0 -69px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .bj-pill {
+    width: 16px;
+    height: 18px;
+    background-position: 0 -83px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .bj-pill {
+    background-position: 0 -100px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .yl {
+    width: 16px;
+    height: 15px;
+    background-position: 0 -118px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .yl {
+    background-position: 0 -134px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .cr {
+    width: 16px;
+    height: 19px;
+    background-position: 0 -150px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .cr {
+    background-position: 0 -170px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .zy {
+    width: 16px;
+    height: 17px;
+    background-position: 0 -191px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .zy {
+    background-position: 0 -207px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .mr {
+    width: 18px;
+    height: 13px;
+    background-position: 0 -258px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .mr {
+    background-position: 0 -240px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .glasses {
+    width: 16px;
+    height: 18px;
+    background-position: 0 -224px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .glasses {
+    background-position: 0 -272px;
+}
+
+.header-wrap .top-siteNav .sort-item-box .health {
+    width: 16px;
+    height: 18px;
+    background-position: 0 -285px;
+}
+.header-wrap .top-siteNav .sort-item-box:hover .health {
+    background-position: 0 -302px;
+}
+
+
+.header-wrap .top-siteNav .sort-item-box:hover .sort-detail-box {
+    display: block;
+}
+
+
+.header-wrap .top-siteNav .sort-item-box .i-icon {
+    margin: 0 16px 0 20px;
+    vertical-align: middle;
+}
+
+.header-wrap .top-siteNav .sort-item-box .sib-abox {
+    font-family: microsoft yahei;
+    font-size: 15px;
+    line-height: 50px;
+    position: relative;
+    z-index: 5;
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*头部导航 --> 分类展开*/
+.header-wrap .top-siteNav .sort-detail-list dd a,
+.header-wrap .top-siteNav .sort-detail-list dt a {
+    line-height: 25px;
+    text-decoration: none;
+    color: #666;
+}
+
+.header-wrap .top-siteNav .sort-item-box .sort-detail-box {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 189px;
+    display: none;
+    overflow: hidden;
+    width: 959px;
+    min-height: 478px;
+    padding: 0 20px;
+    border: 1px solid #d9dee3;
+}
+
+.header-wrap .top-siteNav .sort-detail-bg {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    background-color: #fff;
+    filter: alpha(opacity=95);
+}
+
+.header-wrap .top-siteNav .sort-detail-list {
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: 730px;
+    padding-top: 3px;
+}
+
+.header-wrap .top-siteNav .sort-detail-list dl {
+    overflow: hidden;
+}
+
+.header-wrap .top-siteNav .sort-detail-list dt {
+    font-weight: 700;
+    float: left;
+    width: 100px;
+    margin-right: 28px;
+    padding: 16px 0;
+    text-align: right;
+}
+
+.header-wrap .top-siteNav .sort-detail-list dd {
+    float: left;
+    width: 600px;
+    padding: 16px 0;
+    border-bottom: 1px dotted #c6cacb;
+}
+
+.header-wrap .top-siteNav .sort-detail-list dt b {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.header-wrap .top-siteNav .sort-detail-list dd a {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.header-wrap .top-siteNav .sort-detail-list a:hover {
+    color: #e6186f;
+}
+
+.header-wrap .top-siteNav .sort-detail-recommend {
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: 198px;
+    margin-left: 30px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+.header-wrap .top-siteNav .rb-tit {
+    font-weight: 700;
+    padding-bottom: 6px;
+    color: #6b6b6b;
+}
+
+.header-wrap .top-siteNav .rs-tit {
+    font-weight: 700;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    color: #6b6b6b;
+    border-top: 1px solid #ccc;
+}
+
+.header-wrap .top-siteNav .b-shop a {
+    line-height: 30px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: #666;
+}
+
+.header-wrap .top-siteNav .b-shop a:hover {
+    color: #e6186f;
+}
+
+.header-wrap .top-siteNav .b-brank img {
+    border: 1px solid #ebebeb;
+    width:94px;
+}
+

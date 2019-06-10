@@ -1,0 +1,355 @@
+body,
+ul li,
+span {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style-type: none;
+    list-style: none;
+    font: 12px/22px Verdana, Arial, "宋体";
+    text-align: left;
+    color: #333;
+}
+
+/*页脚*/
+.footer-wrap {
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.footer-wrap .ft-authentication-box a:focus,
+.footer-wrap .ft-ensure-box .ensure-content:focus {
+    outline: none;
+}
+
+/*保证*/
+.footer-wrap .ft-ensure-box {
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid #f2f2f2;
+}
+
+.footer-wrap .ft-ensure-box .ensure-content {
+    display: block;
+    width: 1188px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+.footer-wrap .ft-ensure-box .ensure-list {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-wrap .ft-ensure-box .ensure-item {
+    float: left;
+    width: 198px;
+    height: 50px;
+    padding: 22px 0 28px;
+}
+
+.footer-wrap .ft-ensure-box .ensure-item .i-icon {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.red-b,
+.red-h,
+.red-k,
+.red-p,
+.red-x,
+.red-z {
+    width: 50px;
+    height: 50px;
+}
+
+.red-z {
+    background-position: -50px -258px;
+}
+
+.red-k {
+    background-position: -50px -408px;
+}
+
+.red-h {
+    background-position: -50px -358px;
+}
+
+.red-p {
+    background-position: -50px -458px;
+}
+
+.red-b {
+    background-position: -50px -208px;
+}
+
+.red-x {
+    background-position: -50px -308px;
+}
+
+.footer-wrap .ft-ensure-box .ensure-item .ensure-tit {
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    line-height: 28px;
+    float: left;
+    width: 130px;
+    height: 28px;
+    color: #1b1b1b;
+}
+
+.footer-wrap .ft-ensure-box .ensure-item .ensure-desc {
+    font-family: "microsoft yahei";
+    line-height: 14px;
+    float: left;
+    width: 130px;
+    height: 14px;
+    color: #919191;
+}
+
+/*帮助信息*/
+.footer-wrap .ft-info-box {
+    height: 144px;
+    margin: 0 auto;
+    padding: 32px 0 38px;
+    background-color: #f4f4f4;
+}
+
+.footer-wrap .ft-info-box .info-content {
+    position: relative;
+    z-index: 1;
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer-wrap .ft-info-box .info-content-list {
+    float: left;
+    overflow: hidden;
+    width: 630px;
+    height: 100%;
+}
+
+.footer-wrap .ft-info-box .info-content-item {
+    float: left;
+    width: 155px;
+    height: 100%;
+}
+
+.footer-wrap .ft-info-box .info-content-item .info-tit {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;
+    margin-bottom: 0;
+    color: #262626;
+}
+
+.footer-wrap .ft-info-box .info-content-item .info-tit .i-icon {
+    margin-top: -2px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.black-nav {
+    width: 26px;
+    height: 26px;
+    background-position: -23px -247px;
+}
+
+.black-card {
+    width: 26px;
+    height: 18px;
+    background-position: -23px -273px;
+}
+
+.black-heart {
+    width: 26px;
+    height: 18px;
+    background-position: -23px -291px;
+}
+
+.black-help {
+    width: 26px;
+    height: 26px;
+    background-position: -23px -309px;
+}
+
+.footer-wrap .ft-info-box .info-content-item .info-a {
+    line-height: 18px;
+    display: block;
+    height: 18px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    text-indent: 38px;
+    color: #6a6a6a;
+}
+
+.footer-wrap .ft-info-box .info-content-item .info-a:hover {
+    color: #e6186f;
+}
+
+.footer-wrap .ft-info-box .info-contact {
+    float: left;
+    width: 186px;
+    height: 100%;
+    margin-top: -3px;
+}
+
+.icon-weibo {
+    width: 25px;
+    height: 20px;
+    background-position: -23px -225px;
+}
+
+.black-mail {
+    width: 18px;
+    height: 13px;
+    background-position: -23px -138px;
+}
+
+.footer-wrap .ft-info-box .ic-tel {
+    font-size: 22px;
+    line-height: 32px;
+    height: 32px;
+    color: #3b3b3b;
+    font-family: tahoma;
+}
+
+.footer-wrap .ft-info-box .ic-time {
+    font-family: "microsoft yahei";
+    line-height: 18px;
+    height: 18px;
+    padding-bottom: 6px;
+    color: #a5a5a5;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.footer-wrap .ft-info-box .ic-weibo {
+    font-family: "microsoft yahei";
+    line-height: 24px;
+    display: block;
+    height: 24px;
+    margin-top: 11px;
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.footer-wrap .ft-info-box .ic-weibo .icon-weibo {
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.footer-wrap .ft-info-box .ic-mail {
+    line-height: 14px;
+    display: block;
+    height: 14px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #8f8f8f;
+    font-family: tahoma;
+}
+
+.footer-wrap .ft-info-box .ic-mail .black-mail {
+    margin-top: -2px;
+    margin-right: 18px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.footer-wrap .ft-info-box .info-sm {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 110px;
+    height: 100%;
+}
+
+.footer-wrap .ft-info-box .info-sm2 {
+    right: 180px;
+}
+
+.footer-wrap .ft-info-box .iq-img {
+    display: block;
+    overflow: hidden;
+    width: 108px;
+    height: 108px;
+    margin-bottom: 7px;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+}
+
+.footer-wrap .ft-info-box .iq-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-wrap .ft-info-box .info-sm p {
+    font-family: "microsoft yahei";
+    line-height: 16px;
+    text-align: center;
+    color: #484848;
+}
+
+/*链接与版权*/
+.footer-wrap .ft-link-box {
+    height: 118px;
+    margin: 0 auto;
+    padding: 26px 0 18px;
+    background-color: #1562b6;
+}
+
+.footer-wrap .ft-link-box .link {
+    width: 1190px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-wrap .ft-link-box .link a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-wrap .ft-link-box .link a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer-wrap .ft-link-box .copyright {
+    width: 1190px;
+    margin: 20px auto 0;
+}
+
+.footer-wrap .ft-link-box .copyright p {
+    text-align: center;
+    color: #85b6ff;
+    line-height: 28px;
+}
+
+.footer-wrap .ft-link-box .copyright a {
+    margin: 0 3px;
+    text-decoration: none;
+    color: #85b6ff;
+}
+
+.footer-wrap .ft-link-box .copyright a:hover {
+    text-decoration: underline;
+    color: #85b6ff;
+}
+
+/* 最下面的图片 */
+.footer-wrap .ft-img-box {
+    margin-top: 32px;
+    text-align: center;
+
+}
+
+.footer-wrap .ft-img-box a {
+    text-decoration: none;
+    display: inline-block;
+}

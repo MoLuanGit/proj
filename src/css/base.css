@@ -1,0 +1,75 @@
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+dl,
+ul {
+    list-style: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    color: rgb(51, 51, 51);
+    font: 12px/22px tahoma, arial, 宋体;
+}
+
+i {
+    font-style: italic;
+}
+
+img {
+    border: none;
+}
+
+article,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}
