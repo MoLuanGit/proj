@@ -134,6 +134,25 @@
     text-decoration: none;
     color: inherit;
 }
+.header-wrap .top-nav .top-menu-li .top-login em {
+    color: #e6186f;
+}
+.header-wrap .top-nav .i-icon {
+    margin-top: -3px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.icon-level-one {
+    background-position: -86px -568px;
+}
+.header-wrap .top-nav .login-txt .top-account {
+    display: inline-block;
+    max-width: 140px;
+    margin-top: -4px;
+    vertical-align: middle;
+    color: #e6186f;
+}
 
 .header-wrap .top-nav .top-menu-li em {
     font-family: Verdana;

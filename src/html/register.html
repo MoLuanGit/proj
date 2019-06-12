@@ -32,6 +32,11 @@
                     <div class="login-main">
                         <div class="login-box">
                             <form id="login-form">
+                                <!-- 错误信息提示 -->
+                                <div class="sign-hint" style="display: none;">
+                                    <div class="hint-icon">一</div>
+                                    <p></p>
+                                </div>
                                 <div class="form-inline-tel">
                                     <img src="../img/phone.png" alt="">
                                     <input type="text" class="phone" name="telAccount" placeholder="请输入手机号/账号名">
@@ -42,17 +47,14 @@
                                 </div>
                                 <div class="form-inline-pwd">
                                     <img src="../img/lock.png" alt="">
-                                    <input type="text" class="password-show" name="pwd" style="display: none"
-                                        placeholder="请输入您的密码">
-                                    <input type="password" class="password-hide" name="pwd" placeholder="请输入您的密码">
-                                    <div class="change-eye eye-hide" data-show="1"></div>
+                                    <input maxlength="16" type="text" class="password-show pwd" name="pwd" style="display: none" placeholder="请输入您的密码">
+                                    <input type="password" class="password-hide pwd" name="pwd" placeholder="请输入您的密码">
+                                    <div class="change-eye eye-hide"></div>
                                 </div>
                                 <div class="form-inline-note" style="display: none;">
                                     <img src="../img/safe-lock.png" alt="">
                                     <input maxlength="6" type="text" name="note" placeholder="请输入短信验证码">
                                     <div class="get-note">获取验证码</div>
-                                    <div class="get-noted" style="display: none"><span class="note-time">59</span>秒后重新获取
-                                    </div>
                                 </div>
                                 <div class="form-change-forget">
                                     <a class="note-text" href="javascript:;">短信快捷登录丨注册</a>
@@ -111,26 +113,25 @@
                     <div class="login-main">
                         <div class="login-box">
                             <form id="sign-form" action="" method="post">
+                                <!-- 错误信息提示 -->
+                                <div class="sign-hint" style="display: none;">
+                                    <div class="hint-icon">一</div>
+                                    <p></p>
+                                </div>
                                 <div class="form-sign-tel">
                                     <img src="../img/phone.png" alt="">
                                     <input type="text" class="phone" name="mobile" placeholder="请输入您的手机号">
                                 </div>
                                 <div class="form-sign-note">
                                     <img src="../img/safe-lock.png" alt="">
-                                    <input maxlength="6" type="text" name="v_code" placeholder="请输入短信验证码">
+                                    <input type="text" class="note-code" name="v_code" placeholder="请输入短信验证码">
                                     <div class="get-note">获取验证码</div>
                                 </div>
                                 <div class="form-sign-pwd form-inline-pwd">
                                     <img src="../img/lock.png" alt="">
-                                    <input maxlength="16" type="text" class="password-show" name="pwd"
-                                        style="display: none" placeholder="请设置您的密码">
-                                    <input maxlength="16" type="password" class="password-hide" name="pwd"
-                                        placeholder="请设置您的密码">
+                                    <input type="text" class="password-show pwd" name="pwd" style="display: none" placeholder="请设置您的密码">
+                                    <input type="password" class="password-hide pwd" name="pwd" placeholder="请设置您的密码">
                                     <div class="change-eye eye-hide" data-show="1"></div>
-                                </div>
-                                <div>
-                                    <div id="registerCaptcha"><input type="hidden" name="NECaptchaValidate" value=""
-                                            class="yidun_input"></div>
                                 </div>
                                 <div class="sign-submit sign-btn-submit">同意协议并注册</div>
                                 <div class="auto_log">
@@ -148,6 +149,7 @@
     <include src="../tpl/side.html"></include>
     <include src="../tpl/footer.html"></include>
 </body>
+<script src="../js/common.js"></script>
 <script src="../lib/jquery-3.4.1.js"></script>
 <script src="../lib/include.js"></script>
 <script src="../js/login_register.js"></script>

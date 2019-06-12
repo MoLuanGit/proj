@@ -1,3 +1,80 @@
+/* 隐藏的搜索条 */
+.yc-search-box {
+    position: fixed;
+    z-index: 90;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    transition: all .5s;
+    background-color: #13489d;
+    box-shadow: 0 2px 5px #bababa;
+}
+
+body .yc-search-show {
+    top: 0;
+}
+
+.yc-search-box .yc-search-content {
+    position: relative;
+    z-index: 91;
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.yc-search-box .search-container {
+    position: relative;
+    z-index: 93;
+    width: 870px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 9px 0;
+}
+
+.yc-search-box .yc-logo {
+    position: absolute;
+    z-index: 92;
+    top: 0;
+    left: 0;
+    width: 131px;
+    height: 50px;
+}
+
+.yc-search-box .search-form {
+    width: 868px;
+    height: 30px;
+    border: 1px solid #13489d;
+    background-color: #fff;
+}
+
+.yc-search-box .search-form .search-box {
+    font-family: "microsoft yahei";
+    font-size: 13px;
+    line-height: 30px;
+    float: left;
+    width: 748px;
+    height: 30px;
+    text-indent: 5px;
+    border: none;
+    background: 0 0;
+}
+
+.yc-search-box .search-form .search-btn {
+    font-family: "microsoft yahei";
+    font-size: 15px;
+    line-height: 29px;
+    float: left;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background: #13489d url(../img/topSearch_icon.png) no-repeat 20px center;
+    cursor: pointer;
+}
+
+/* 主体 */
 .main-wrap {
     position: relative;
     z-index: 1;
@@ -1411,4 +1488,33 @@
 .main-wrap .f-link .ft li a {
     text-decoration: none;
     color: #666;
+}
+
+/* 隐藏的导航，切换主页显示位置 */
+.main-wrap .yc-nav-box {
+    position: fixed;
+    bottom: 160px;
+    left: 10%;
+    z-index:100;
+    width: 30px;
+    height: 343px;
+    margin-left: -84px;
+    border-top: 1px solid #d8d8d8;
+    display: none;
+}
+.main-wrap .yc-nav-box .yc-nav-item {
+    font-family: microsoft yahei;
+    line-height: 15px;
+    display: block;
+    height: 30px;
+    padding: 9px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #9e9096;
+    margin-bottom: 1px;
+}
+.main-wrap .yc-nav-box .cur,
+.main-wrap .yc-nav-box .yc-nav-item:hover {
+    background-color: #e73c81;
 }

@@ -104,6 +104,7 @@
 
         </li>
     </ul>
+    <!-- 回到顶部 -->
     <ul class="sidebar-extra" id="sidebar-extra">
         <li class="sidebar-top">
             <a href="javascript:void(0);" id="back-top">
@@ -113,9 +114,11 @@
     </ul>
 </div>
 <!-- 左下小广告 -->
-<div class="kefu_pop_mid" id="kefu_pop_mid"
-    style="opacity: 1; display: block; width: 86px; height: 140px; left: 100px; bottom: 10px;">
+<div class="kefu-mv" id="kefu-mv" style="opacity: 1; display: block; width: 86px; height: 140px; left: 100px; bottom: 10px;">
     <span class="close"></span>
+</div>
+<div class="kefu-lxw">
+    <p class="wenzi">联系我</p><span class="phone-icon"></span>
 </div>
 <script>
     $(function () {
@@ -127,11 +130,20 @@
         });
 
         // 关闭小广告
-        $("#kefu_pop_mid .close").click(function () {
+        $("#kefu-mv .close").click(function () {
             $(this).parent().stop(true).animate({
                 "left": 0,
                 "opacity": 0,
-            });
+            },200);
+            $(".kefu-lxw").animate({
+                "opacity":1
+            },200);
         });
+
+        let userPhone = myCookie.getItem("userPhone");
+        if (userPhone) {
+            $("#rightLogout").hide();
+            $("#rightLogin").show();
+        }
     })
 </script>

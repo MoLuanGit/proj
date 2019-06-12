@@ -30,17 +30,6 @@
                         <a href="" class="top-account" id="topAccount"></a>
                         <i class="i-icon icon-tri"></i>
                     </p>
-                    <div class="top-member-box" style="height: 93px;width: 213px;">
-                        <div class="login-account-box">
-                            <i class="i-icon icon-account"></i>
-                            <div class="login-account-info">
-                                <p>成长值：<span id="account_growthVal"></span></p>
-                                <i class="i-icon account-level" id="account-level"></i>
-                            </div>
-                            <a href="javascript:;" class="login-account-exit">退出</a>
-                        </div>
-                        <a href="" class="login-account-btn">会员大本营</a>
-                    </div>
                 </li>
                 <li class="top-line"></li>
                 <li class="top-menu-li top-member-li">
@@ -693,3 +682,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(function(){
+        let userPhone = myCookie.getItem("userPhone");
+        if (userPhone) {
+            $("#login-txt").show().prev().hide();
+            $("#topAccount").text(userPhone);
+        }
+    });
+</script>

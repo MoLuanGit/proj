@@ -30,6 +30,12 @@
     background-repeat: repeat-y;
 }
 
+.login-box #sign-form .jinyong {
+    background: #ccc;
+    color: #666;
+    pointer-events:none
+}
+
 /*登录框*/
 .b_login .ly_rt,
 .b_login .ly_r {
@@ -94,6 +100,35 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* 错误信息提示 */
+.login-box .sign-hint {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #feebe2;
+}
+
+.login-box .sign-hint .hint-icon {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #f2216f;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-box .sign-hint p {
+    padding-top: 6px;
+    padding-left: 35px;
+    color: #999;
+}
+
 
 .login-box .form-inline-tel,
 .login-box .form-inline-email,
@@ -304,4 +339,3 @@ a.pwd-text:hover {
     line-height: 52px;
     background-color: #bdbdbd;
 }
-

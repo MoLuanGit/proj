@@ -17,6 +17,22 @@
 
 <body>
     <include src="tpl/header.html"></include>
+
+    <!-- 隐藏的搜素条 -->
+    <div id="yc-search-box" class="yc-search-box">
+        <div class="yc-search-content">
+            <div class="search-container">
+                <form class="search-form">
+                    <input type="text" class="search-box" placeholder="药品名称/功效/症状" value="" autocomplete="off">
+                    <input type="submit" class="search-btn" value="搜索">
+                </form>
+            </div>
+            <div class="yc-logo">
+                <img alt="八百方 正品药" src="img/800Search-logo.png">
+            </div>
+        </div>
+    </div>
+
     <!-- 主体部分 -->
     <div id="main-wrap" class="main-wrap">
         <!-- 轮播图 -->
@@ -960,8 +976,8 @@
         </div>
 
         <!-- 药品分类 -->
-        <div class="main-cate-box">
-            <div class="cate-header nav-item-box">
+        <div class="main-cate-box  nav-item-box">
+            <div class="cate-header">
                 <h2><i class="i-icon icon-sort"></i>药品分类</h2>
                 <a href="" class="cate-all">全部商品分类</a>
             </div>
@@ -1724,24 +1740,19 @@
                 <li><a href="" title="健客网">健客网</a></li>
             </ul>
         </div>
-    </div>
 
-    <!-- 隐藏的搜素条 -->
-    <div id="fixed-search-box" class="fixed-search-box fixed-search-show">
-        <div class="fixed-search-content">
-            <div id="search-contain-2" class="search-contain">
-                <form class="search-form" id="search-from">
-                    <input id="key" type="text" class="search-box" placeholder="药品名称/功效/症状" value="" autocomplete="off">
-                    <input type="submit" class="search-btn" onclick="return checkfrm(this.form)" value="搜索">
-                </form>
-                <div id="autocomplete" class="autocomplete"></div>
-            </div>
-            <div class="fixed-logo">
-                <img alt="八百方 正品药" src="/shop/images/2016index/800Search-logo.png">
-            </div>
-        </div>
+        <div id="yc-nav-box" class="yc-nav-box">
+            <a class="yc-nav-item" href="javascript:;">特价热卖</a>
+            <a class="yc-nav-item" href="javascript:;">每日优惠</a>
+            <a class="yc-nav-item" href="javascript:;">明星商家</a>
+            <a class="yc-nav-item" href="javascript:;">药师咨询</a>
+            <a class="yc-nav-item" href="javascript:;">药品分类</a>
+            <a class="yc-nav-item" href="javascript:;">中西成药</a>
+            <a class="yc-nav-item" href="javascript:;">医疗器械</a>
+            <a class="yc-nav-item" href="javascript:;">营养保健</a>
+            <a class="yc-nav-item" href="javascript:;">成人用品</a>
+		</div>
     </div>
-
 
     <include src="tpl/side.html"></include>
     <include src="tpl/footer.html"></include>
@@ -1749,6 +1760,7 @@
 </body>
 <script src="lib/jquery-3.4.1.js"></script>
 <script src="lib/jquery-powerSwitch.js"></script>
+<script src="js/common.js"></script>
 <script src="lib/include.js"></script>
 <script src="js/index.js"></script>
 
