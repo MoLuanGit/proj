@@ -1,0 +1,482 @@
+.header-wrap .top-siteNav .sort-list{
+    display: none;
+}
+.hearder-wrap .top-siteNav .all-sort:hover .sort-list{
+    display: block;
+}
+#page, #header, #content, #footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+#content{
+    overflow: hidden;
+}
+.w1190 {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1190px;
+}
+.b_search {
+    overflow: visible;
+    clear: both;
+}
+
+.b_search .pos {
+    width: 972px;
+    height: 34px;
+    line-height: 34px;
+    color: #999;
+    margin-top: 9px;
+    padding-bottom: 3px;
+    overflow: hidden;
+}
+.b_search .ly_lt {
+    float: left;
+    width: 972px;
+    color: #333;
+    overflow: visible;
+}
+.b_search .ly_rt {
+    width: 200px;
+    float: right;
+    overflow: hidden;
+}
+
+.b_search .ly_rt .p_rec {
+    float: left;
+    width: 198px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    margin-bottom: 19px;
+}
+
+.b_search .p_rec .rec_tit {
+    width: 172px;
+    height: 29px;
+    padding: 0 13px;
+    margin-top: 1px;
+    font: bold 12px/29px "宋体";
+    border-bottom: 1px solid #e4e4e4;
+    background: #f8f6f6;
+}
+.b_search .p_rec .list_box {
+    width: 184px;
+    padding: 14px 7px 0;
+    overflow: hidden;
+}
+.b_search .p_rec dl {
+    height: 230px;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding: 0 13px;
+}
+.b_search .p_rec .pic {
+    float: left;
+    width: 156px;
+    height: 128px;
+    border: 1px solid #dad9d9;
+    overflow: hidden;
+}
+.b_search .p_rec .p_pri {
+    font: 12px/16px arial;
+    margin-top: 5px;
+}
+.b_search .p_rec .s_pri {
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    color: #e3393b;
+}
+.b_search .p_rec dd {
+    float: left;
+    width: 150px;
+    max-height: 32px;
+    overflow: hidden;
+    line-height: 16px;
+    color: #999;
+}
+.b_search .p_rec .p_shop a {
+    line-height: 16px;
+    color: #999;
+    display: inline-block;
+    overflow: hidden;
+    height: 16px;
+    text-decoration: none;
+}
+.b_search .pos a {
+    color: #999;
+    text-decoration: none;
+}
+.b_search .p_rec .p_info a {
+    line-height: 16px;
+    color: #333;
+    display: inline-block;
+    overflow: hidden;
+    height: 16px;
+    text-decoration: none;
+}
+.b_search .result_title {
+    height: 46px;
+    font: 12px/46px verdana;
+    overflow: hidden;
+}
+.b_search .result_title .shu {
+    float: right;
+}
+
+.b_search .result_title p {
+    line-height: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #999;
+}
+.b_search .keyword {
+    color: #da1d31;
+}
+.b_search .ft_arial {
+    font-family: arial;
+}
+.b_search .result_chosen {
+    min-height: 40px;
+    font: 12px/40px verdana;
+    overflow: hidden;
+    _height: 40px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #f6f6f6;
+}
+.b_search .selected_text {
+    float: left;
+    display: block;
+    height: 40px;
+    font: 12px/40px "宋体";
+    width: 72px;
+    padding: 0 10px 0 14px;
+    text-align: left;
+    zoom: 1;
+    color: #999;
+}
+.b_search .selected {
+    float: left;
+    width: 870px;
+    line-height: 17px;
+    padding: 5px 0;
+    overflow: hidden;
+    *padding: 9px 0;
+}
+.b_search .selected .cate {
+    float: left;
+    height: 20px;
+    padding: 0 25px 0 3px;
+    font: 12px/20px "宋体";
+    margin: 5px 0 5px 15px;
+    border: 1px solid #c9c9c9;
+    _border: 1px solid #da1d31;
+    background: #fff url(../img/list/closeBtn.jpg) no-repeat 95%;
+    cursor: pointer;
+    color: #525252;
+    overflow: hidden;
+    text-decoration: none;
+}
+.b_search .selected .cate:hover {
+    background: #fff url(../img/list/closeBtn_a.jpg) no-repeat 95%;
+}
+.b_search .ly_lt .search_result {
+    position: relative;
+    padding-bottom: 7px;
+    overflow: hidden;
+    clear: both;
+}
+.search_result .select {
+    color: #333;
+    overflow: hidden;
+}
+.select .b_mod {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #e8e8e8;
+    overflow: hidden;
+    clear: both;
+    background-color: #fff;
+}
+.select .b_title {
+    float: left;
+    width: 72px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 14px;
+    overflow: hidden;
+    color: #999;
+    text-align: left;
+}
+.select .b_cont {
+    float: left;
+    width: 728px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.select .b_cont li {
+    float: left;
+    width: 128px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 17px;
+    color: #999;
+    overflow: hidden;
+}
+.select .b_cont li a {
+    display: inline-block;
+    color: #525252;
+    text-decoration: none;
+}
+.b_search .b_pade_noBorder {
+    border: none;
+}
+.b_search .pos a:hover {
+    color: #da1d31;
+}
+.select .b_cont li a:hover {
+    color: #da1d31;
+}
+.b_search .b_pade {
+    height: 55px;
+    background-color: #f6f6f6;
+    margin-top: 15px;
+    text-align: right;
+    padding: 0 12px;
+    border-top: 2px solid #2d8be6;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #eaeaea;
+}
+.b_search .showClass {
+    float: left;
+    overflow: hidden;
+    width: 54px;
+    height: 25px;
+    margin-top: 15px;
+}
+.b_search .choose_order {
+    float: left;
+    margin: 13px 0 0 5px;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    background-color: #fff;
+    height: 26px;
+    overflow: hidden;
+}
+.b_search .b_pade .page_text {
+    display: inline-block;
+    width: 40px;
+    height: 55px;
+    line-height: 55px;
+    color: #999;
+    text-align: right;
+    padding-right: 2px;
+    *line-height: 45px;
+}
+.b_search .b_pade .page_span {
+    width: 19px;
+    height: 22px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    margin: 10px 0;
+    margin-left: 3px;
+    display: inline-block;
+}
+.b_search .b_pade .cur a {
+    background: #efeff0;
+    color: #333;
+    cursor: default;
+}
+.b_search .b_pade .page_span a {
+    display: block;
+    width: 19px;
+    height: 22px;
+    font: 14px/22px "宋体";
+    background: #fff;
+    color: #036ef2;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.b_search .showClass .listShow, 
+.b_search .showClass .gridShow{
+    background: url(../img/list/grid.png) no-repeat scroll 0 0;
+}
+.list_mod .showClass .listShow {
+    background-position: 0 -13px;
+}
+.list_mod .showClass .gridShow {
+    background-position: -13px 0px;
+}
+
+.b_search .showClass a {
+    width: 13px;
+    height: 13px;
+    float: left;
+    margin: 6px;
+}
+
+.b_search .choose_order a {
+    display: block;
+    width: 54px;
+    float: left;
+    border-right: 1px solid #e5e5e5;
+    line-height: 26px;
+    color: #525252;
+    text-align: center;
+    text-decoration: none;
+}
+.b_search .choose_order .red {
+    background-color: #da1337;
+    color: #fff;
+}
+
+.b_search .b_result {
+    clear: both;
+    overflow: hidden;
+}
+.list_mod .mod {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px dotted #d4d4d4;
+    padding: 25px 0;
+    _height: 102px;
+    overflow: hidden;
+}
+.list_mod .mod:hover {
+    background-color: #fafafa;
+}
+.list_mod .b_prod {
+    float: left;
+    overflow: hidden;
+    width: 700px;
+    margin-left: 10px;
+}
+.list_mod .mod .pdPrice {
+    margin-top: 37px;
+    font-size: 20px;
+    font-family: microsoft yahei;
+    color: #da1d31;
+
+    float: left;
+}
+.list_mod .mod .goNextBtn {
+    border-radius: 3px;
+    background-color: #1f87ec;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    float: right;
+    margin: 30px 10px 0 0;
+    _margin-right: 0;
+    text-decoration:none;
+}
+
+.list_mod .b_result .pic {
+    position: relative;
+    float: left;
+    border: 1px solid #dfe0e3;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.list_mod .pic, .list_mod .pic a {
+    width: 100px;
+    height: 100px;
+}
+.list_mod .b_info {
+    float: left;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.list_mod .pic a {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.list_mod .b_info .tit {
+    line-height: 18px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 540px;
+}
+
+.list_mod .b_info p {
+    line-height: 23px;
+    color: #666;
+}
+.list_mod .b_info .tit a {
+    font: 16px/20px "microsoft yahei";
+    color: #0876df;
+    text-decoration: none;
+}
+
+.list_mod .b_info .tit .madeIn {
+    color: #0876df;
+    font: 16px/20px "microsoft yahei";
+}
+.list_mod .b_info .c_name {
+    height: 23px;
+    overflow: hidden;
+    color: #666;
+    width: 540px;
+}
+.list_mod .b_info .c_name a{
+    color: #666;
+    text-decoration: none;
+}
+
+.b_search #pageDiv {
+    width: 100%;
+    padding: 25px 0;
+    overflow: hidden;
+}
+.b_search .pages {
+    float: right;
+    height: 23px;
+    line-height: 21px;
+    overflow: hidden;
+}
+
+.b_search .pages a, .b_search .pages span {
+    display: block;
+    float: left;
+    height: 19px;
+    line-height: 19px;
+    padding: 0 6px;
+    margin-right: 4px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.b_search .pages span.nextprev {
+    color: #666;
+}
+.b_search .pages span.nextprev {
+    border: 1px solid #ddd;
+    color: #999;
+}
+.b_search .pages a {
+    display: block;
+    float: left;
+    height: 19px;
+    line-height: 19px;
+    padding: 0 6px;
+    margin-right: 4px;
+    border: 1px solid #9AAFE5;
+    text-decoration: none;
+    color: #2E6AB1;
+}
+.b_search .pages a:hover {
+    border-color: #2E6AB1;
+    color: #2E6AB1;
+}
+.b_search .pages span.current {
+    border: 1px solid #2E6AB1;
+    font-weight: bold;
+    background: #2E6AB1;
+    color: #fff;
+}
