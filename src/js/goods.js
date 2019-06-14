@@ -151,10 +151,10 @@ $(function () {
                 myCookie.setItem(`${id}`, JSON.stringify(arrBook), 10);
 
                 redraw();
+                if (e.target.className == "buy") {
+                    location.href = "./cart.html";
+                }
             }
-        });
-        if (e.target.className == "buy") {
-            location.href = "./cart.html";
-        }
+        });       
     });
 });

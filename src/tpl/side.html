@@ -129,7 +129,7 @@
             scrollTop: 0
         }, 500);
     });
-    console.log($("#back-top"));
+
     // 关闭小广告
     $("#kefu-mv .close").click(function () {
         $(this).parent().stop(true).animate({
@@ -217,7 +217,6 @@
         cookieId.id.splice(index, 1);
 
         if (cookieId.id.length) {
-            console.log(111);
             myCookie.removeItem("id");
         } else {
             let strId = JSON.stringify(cookieId);

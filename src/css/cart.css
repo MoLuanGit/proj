@@ -1,14 +1,23 @@
+.header-wrap .top-siteNav .sort-list {
+    display: none;
+}
+
+.hearder-wrap .top-siteNav .all-sort:hover .sort-list {
+    display: block;
+}
 .b_wp {
     width: 100%;
     min-width: 1190px;
     padding-top: 26px;
-    font: 12px/22px Verdana, Arial,"宋体";
+    font: 12px/22px Verdana, Arial, "宋体";
 }
+
 .b_wp .b_flow {
     width: 1190px;
     margin: 0 auto;
     overflow: hidden;
 }
+
 .b_flow .pos {
     color: #666;
     height: 34px;
@@ -16,6 +25,7 @@
     overflow: hidden;
     padding-bottom: 3px;
 }
+
 .b_wp .m_pro {
     width: 1190px;
     height: 44px;
@@ -23,40 +33,240 @@
     padding: 34px 0 20px;
     overflow: hidden;
 }
+
 .b_flow .cart_t {
     text-align: center;
     margin-top: 12px;
 }
+
 .b_wp .b_flow .b_total {
     width: 1190px;
     margin: 10px auto;
     overflow: hidden;
 }
+
 .b_flow .pos span {
     color: #333;
 }
+
 .b_flow .pos a {
     color: #666;
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .b_flow .drug_dxt .p1 {
     background: url(../img/cart/cart_icon_drug_01.jpg) no-repeat;
     width: 459px;
 }
+
 .m_pro span {
     display: block;
     float: left;
     height: 44px;
     overflow: hidden;
 }
+
 .b_flow .drug_dxt .p2 {
     background: url(../img/cart/cart_icon_drug_02.jpg) no-repeat;
     width: 414px;
 }
+
 .b_flow .cart_t th {
     height: 31px;
     line-height: 31px;
     border-top: 2px solid #e2e2e2;
     text-align: center;
     font-weight: normal;
+    color:#333;
+}
+
+.b_flow .shopper_n {
+    width: 1190px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.b_flow .cart_list {
+    width: 1188px;
+    border: 1px solid #e1dfdd;
+}
+
+.shopper_n .shopChoose {
+    float: left;
+    height: 40px;
+}
+
+.b_flow .shopper_n input {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.b_flow .shopper_n a,
+.b_flow .shopper_n a:hover {
+    color: #da0f0f;
+    text-decoration: none;
+}
+
+.b_flow .cart_list td {
+    padding: 16px 0;
+    border-bottom: 1px dotted #dbd8d2;
+    text-align: center;
+}
+
+.b_flow .b_pord {
+    width: 300px;
+    overflow: hidden;
+}
+
+.b_flow .b_pord .pic {
+    float: left;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #c8bfbf;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+.b_flow .b_pord .pic img {
+    width: 58px;
+    height: 58px;
+}
+
+.b_flow .b_pord .pord_n,
+.b_flow .b_pord .other {
+    width: 213px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.b_flow .b_pord .pord_n a {
+    text-decoration: none;
+    color: #333;
+}
+
+.b_flow .b_price {
+    height: 48px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.b_flow .m_price,
+.b_flow .s_price {
+    color: #999;
+    text-align: center;
+    font: 12px/22px Verdana, Arial, "宋体";
+    font-family: "microsoft yahei";
+    margin: 0;
+}
+
+.b_flow .price {
+    color: #666;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+}
+
+.b_flow .mo_num {
+    width: 86px;
+    height: 22px;
+    background: url(../img/cart/cart_icon.png) no-repeat 0 -211px;
+    margin-left: 10px;
+}
+
+.cart_storage_tips {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.b_flow .rec,
+.b_flow .add {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.b_flow .num {
+    float: left;
+    width: 42px;
+    height: 22px;
+    font: 14px/22px arial;
+    text-align: center;
+    color: #7b7b7b;
+    border: none;
+    background: none;
+    overflow: hidden;
+}
+
+.b_flow .s_total {
+    width: 88px;
+    color: #ed3030;
+    font-family: "microsoft yahei";
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+}
+
+.b_flow .s_total .st {
+    font-weight: 700;
+}
+.b_flow .opt {
+    padding-right: 14px;
+}
+.b_flow .opt a{
+    text-decoration: none;
+    color:#333;
+}
+
+.total_choose {
+    color: #666;
+    float: left;
+    line-height: 40px;
+    height: 30px;
+    overflow: hidden;
+    padding-top: 12px;
+    width: 140px;
+}
+.b_wp .b_flow .b_total .total {
+    width: 900px;
+    float: left;
+    color: #666;
+    line-height: 30px;
+    padding-top: 12px;
+    text-align: right;
+    overflow: hidden;
+}
+.total_choose input {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.total_choose label {
+    color: #898989;
+}
+.total_choose a {
+    padding-left: 10px;
+    color: #898989;
+    text-decoration: none;
+}
+.b_wp .b_flow span.t_price {
+    font: 24px/30px Verdana;
+    color: #d20005;
+    padding-top: 10px;
+}
+.b_wp .b_flow .buy_btn {
+    float: right;
+    width: 129px;
+    height: 41px;
+    margin-top: 7px;
+    background-color: #ff7800;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    color: #fff;
 }

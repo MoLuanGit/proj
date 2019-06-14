@@ -232,7 +232,6 @@ $(function () {
             oTishi.hide();
 
             if ($(".auto_log .status:visible").is(":checked")) {
-                console.log(111);
                 myCookie.setItem("userPhone", phone, 14);
                 myCookie.setItem("userPwd", pwd, 14);
             }
