@@ -87,7 +87,7 @@ $(function(){
             $(".st",($(".smallCheck:checked").parents("tr"))).each(function () {
                 allPrice += Number($(this).text());
             });
-            $("#allTotal").text(`￥${allPrice}`);
+            $("#allTotal").text(`￥${allPrice.toFixed(2)}`);
         }
     }
     render();

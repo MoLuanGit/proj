@@ -54,7 +54,6 @@ $(function () {
             "background-image": `url(${middleImg.attr("src")})`,
             "background-position": `-${l}px -${t}px`,
             "background-size": "620px 620px",
-            "background-repeat": "norepeat",
         }).stop(true).show();
 
     });
@@ -119,6 +118,7 @@ $(function () {
     // 添加购物车
     $("#add_cart .add_cart,#add_cart .buy").click(function (e) {
         let id = $("#add_cart").attr("data-id");
+        console.log(id)
         let num = quantity.val() * 1;
         if (typeof num != "number" || num < 1) {
             num = 1;
@@ -155,6 +155,6 @@ $(function () {
                     location.href = "./cart.html";
                 }
             }
-        });       
+        });
     });
 });
