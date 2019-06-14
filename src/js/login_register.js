@@ -1,4 +1,9 @@
 $(function () {
+    $(".header-wrap").load("../tpl/header.html");
+    $("#footer-wrap").load("../tpl/footer.html");
+    $(".sidebar-wrap").load("../tpl/side.html");
+    $("#protocol-pop").load("../tpl/protocol.html");
+
     let isUsePwd = true;
     let formNote = $(".form-inline-note");
     let formPwd = $(".form-inline-pwd");

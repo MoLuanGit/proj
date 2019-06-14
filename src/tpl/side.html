@@ -1,149 +1,248 @@
 <!-- 右侧 -->
-<div class="sidebar-wrap">
-    <div class="sidebar-bg"></div>
-    <ul class="sidebar-main">
-        <li class="sidebar-content sidebar-cart">
-            <a href="">
-                <i class="i-icon white-cart"></i>
+<!-- <div class="sidebar-wrap"> -->
+<div class="sidebar-bg"></div>
+<ul class="sidebar-main">
+    <li class="sidebar-content sidebar-cart">
+        <a href="">
+            <i class="i-icon white-cart"></i>
+            <p>购物车</p>
+        </a>
+        <div class="cart-box cart-drawer">
+            <div class="cart-title-box">
+                <i class="i-icon black-cart"></i>
                 <p>购物车</p>
-            </a>
-            <div class="cart-box cart-drawer">
-                <div class="cart-title-box">
-                    <i class="i-icon black-cart"></i>
-                    <p>购物车</p>
+            </div>
+            <ul>
+                <li class="cart-empty">购物车为空</li>
+            </ul>
+            <div class="cart-bottom-box">
+                <p>
+                    共 <span class="count-num red" id="count-num">0</span> 件商品
+                    共计 <span class="count-price red" id="count-price"> ￥0.00</span>
+                    <a href="javascript:void(0);" class="cart-js-btn">去结算</a>
+                </p>
+            </div>
+        </div>
+    </li>
+    <li class="sidebar-line"></li>
+    <li class="sidebar-content sidebar-service">
+        <span class="drawer-handle"></span>
+        <i class="i-icon white-service"></i>
+        <p>客服咨询</p>
+        <div class="service-drawer" id="service-drawer">
+            <div class="service-title">
+                <p class="service-icon">客服</p>
+            </div>
+            <div class="btn-box">
+                <a class="ng-btn" href="javascript:;" title="男科/肝病科">
+                    <span class="mask-lay"></span>
+                    男科/肝病科
+                </a>
+                <a class="zh-btn" href="javascript:;" title="综合科">
+                    <span class="mask-lay"></span>
+                    综合科
+                </a>
+                <a class="sh-btn" href="javascript:;" title="售后服务">
+                    <span class="mask-lay"></span>
+                    售后服务
+                </a>
+            </div>
+            <div class="guan-zhu">
+                <img src="/src/img/ma0.png" alt="扫码关注“八百方正品药”，领30元红包,阅读健康资讯" style="width: 115px;height: 115px">
+                <p class="code_tips">
+                    扫码关注“八百方正品药”
+                    <br>
+                    <span style="color:#e6186f">领30元红包</span>
+                    ，阅读健康资讯
+                </p>
+            </div>
+        </div>
+    </li>
+    <li class="sidebar-line"></li>
+    <li class="sidebar-content sidebar-login">
+        <span class="drawer-handle"></span>
+        <i class="i-icon white-login"></i>
+        <p>登录</p>
+        <div class="login-drawer">
+            <div id="rightLogout">
+                <div class="login-box">
+                    <img src="/src/img/icon/user-header.png">
+                    <p>您好，请先登录！</p>
+                    <a href="/src/html/login.html">登录</a>
+                    <a href="/src/html/register.html">注册</a>
                 </div>
-                <ul>
-                    <li class="cart-empty">购物车为空</li>
+                <p class="lb">注册享100元新人礼包！</p>
+            </div>
+            <!-- 登录之后显示 -->
+            <div id="rightLogin" class="login" style="display: none;">
+                <div class="user-account">
+                    <p>您好，<a id="rightAccount" href="">13058365481</a></p>
+                    <span><b id="level">V1</b><span id="levelName">注册会员</span></span>
+                </div>
+                <ul class="user-info">
+                    <li>
+                        <a href="">
+                            <span id="rightScore">0</span>
+                            <p>积分</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span id="rightCoupon">3</span>
+                            <p>红包</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span id="rightCard">5</span>
+                            <p>优惠券</p>
+                        </a>
+                    </li>
                 </ul>
-                <div class="cart-bottom-box">
-                    <p>
-                        共 <span class="count-num red" id="count-num">0</span> 件商品
-                        共计 <span class="count-price red" id="count-price"> ￥0.00</span>
-                        <a href="javascript:void(0);" class="cart-js-btn">去结算</a>
-                    </p>
-                </div>
             </div>
-        </li>
-        <li class="sidebar-line"></li>
-        <li class="sidebar-content sidebar-service">
-            <span class="drawer-handle"></span>
-            <i class="i-icon white-service"></i>
-            <p>客服咨询</p>
-            <div class="service-drawer" id="service-drawer">
-                <div class="service-title">
-                    <p class="service-icon">客服</p>
-                </div>
-                <div class="btn-box">
-                    <a class="ng-btn" href="javascript:;" title="男科/肝病科">
-                        <span class="mask-lay"></span>
-                        男科/肝病科
-                    </a>
-                    <a class="zh-btn" href="javascript:;" title="综合科">
-                        <span class="mask-lay"></span>
-                        综合科
-                    </a>
-                    <a class="sh-btn" href="javascript:;" title="售后服务">
-                        <span class="mask-lay"></span>
-                        售后服务
-                    </a>
-                </div>
-                <div class="guan-zhu">
-                    <img src="/src/img/ma0.png" alt="扫码关注“八百方正品药”，领30元红包,阅读健康资讯" style="width: 115px;height: 115px">
-                    <p class="code_tips">
-                        扫码关注“八百方正品药”
-                        <br>
-                        <span style="color:#e6186f">领30元红包</span>
-                        ，阅读健康资讯
-                    </p>
-                </div>
-            </div>
-        </li>
-        <li class="sidebar-line"></li>
-        <li class="sidebar-content sidebar-login">
-            <span class="drawer-handle"></span>
-            <i class="i-icon white-login"></i>
-            <p>登录</p>
-            <div class="login-drawer">
-                <div id="rightLogout">
-                    <div class="login-box">
-                        <img src="/src/img/icon/user-header.png">
-                        <p>您好，请先登录！</p>
-                        <a href="/src/html/login.html">登录</a>
-                        <a href="/src/html/register.html">注册</a>
-                    </div>
-                    <p class="lb">注册享100元新人礼包！</p>
-                </div>
-                <!-- 登录之后显示 -->
-                <div id="rightLogin" class="login" style="display: none;">
-                    <div class="user-account">
-                        <p>您好，<a id="rightAccount" href="">13058365481</a></p>
-                        <span><b id="level">V1</b><span id="levelName">注册会员</span></span>
-                    </div>
-                    <ul class="user-info">
-                        <li>
-                            <a href="">
-                                <span id="rightScore">0</span>
-                                <p>积分</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span id="rightCoupon">3</span>
-                                <p>红包</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span id="rightCard">5</span>
-                                <p>优惠券</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        </div>
 
-        </li>
-    </ul>
-    <!-- 回到顶部 -->
-    <ul class="sidebar-extra" id="sidebar-extra">
-        <li class="sidebar-top">
-            <a href="javascript:void(0);" id="back-top">
-                <i class="i-icon icon-top"></i>
-            </a>
-        </li>
-    </ul>
-</div>
+    </li>
+</ul>
+<!-- 回到顶部 -->
+<ul class="sidebar-extra" id="sidebar-extra">
+    <li class="sidebar-top">
+        <a href="javascript:void(0);" id="back-top">
+            <i class="i-icon icon-top"></i>
+        </a>
+    </li>
+</ul>
+
 <!-- 左下小广告 -->
-<div class="kefu-mv" id="kefu-mv" style="opacity: 1; display: block; width: 86px; height: 140px; left: 100px; bottom: 10px;">
+<div class="kefu-mv" id="kefu-mv"
+    style="opacity: 1; display: block; width: 86px; height: 140px; left: 100px; bottom: 10px;">
     <span class="close"></span>
 </div>
 <div class="kefu-lxw">
     <p class="wenzi">联系我</p><span class="phone-icon"></span>
 </div>
+<!-- </div> -->
 <script>
-    $(function () {
-        // 点击回到顶部
-        $("#back-top").click(function () {
-            $("body,html").animate({
-                scrollTop: 0
-            }, 500);
-        });
+    // 点击回到顶部
+    $("#back-top").click(function () {
+        $("body,html").animate({
+            scrollTop: 0
+        }, 500);
+    });
+    console.log($("#back-top"));
+    // 关闭小广告
+    $("#kefu-mv .close").click(function () {
+        $(this).parent().stop(true).animate({
+            "left": 0,
+            "opacity": 0,
+        }, 200);
+        $(".kefu-lxw").animate({
+            "opacity": 1
+        }, 200);
+    });
 
-        // 关闭小广告
-        $("#kefu-mv .close").click(function () {
-            $(this).parent().stop(true).animate({
-                "left": 0,
-                "opacity": 0,
-            },200);
-            $(".kefu-lxw").animate({
-                "opacity":1
-            },200);
-        });
+    let userPhone = myCookie.getItem("userPhone");
+    if (userPhone) {
+        $("#rightLogout").hide();
+        $("#rightLogin").show();
+    }
 
-        let userPhone = myCookie.getItem("userPhone");
-        if (userPhone) {
-            $("#rightLogout").hide();
-            $("#rightLogin").show();
+    // 购物车
+    let cartUl = $(".sidebar-wrap .cart-box ul");
+
+    function redraw() {
+        let cookieId = myCookie.getItem("id") || "{}";
+        cookieId = JSON.parse(cookieId);
+        cookieId.id = cookieId.id || [];
+
+        let idArr = cookieId.id;
+
+        if (idArr.length == 0) {
+            $(".cart-empty").show();
+        } else {
+            $(".cart-empty").hide();
+            let html = "";
+            $.each(idArr, function (i, ele) {
+                let temp = JSON.parse(myCookie.getItem(ele));
+                html += `<li data-gid="${temp.id}" data-scode="${temp.id}">
+                        <div class="cfb-img-box">
+                            <a href="">
+                                <img src="../${temp.src}">
+                            </a>
+                        </div>
+                        <div class="cfb-goods-info">
+                            <a class="cgi-title" href="">
+                            ${temp.effect}
+                            </a>
+                            <div class="cgi-price-box" data-ispackage="0">
+                                <div class="cpb-jj-box" data-qty="${temp.inventory}" data-price="49.8">
+                                    <span class="cjb-jia cjb-single-jian">-</span>
+                                    <input class="goods-number" type="text" value="${temp.num}" name="goods-single-number">
+                                    <span class="cjb-jian cjb-single-jia">+</span>
+                                </div>
+                                <span class="price">¥${(temp.price*temp.num).toFixed(2)}</span>
+                                <a class="del-btn" name="fc-del-btn" href="javascript:void(0);">删除</a>
+                            </div>
+                        </div>
+                    </li>`;
+            });
+            cartUl.html(html);
+            let allNum = 0;
+            let allPrice = 0;
+            $(".goods-number").each(function () {
+                allNum += Number($(this).val());
+            });
+            $(".cgi-price-box .price").each(function () {
+                allPrice += Number($(this).text().substr(1));
+            });
+            $("#count-num").text(allNum);
+            $("#count-price").text(allPrice.toFixed(2));
         }
+    }
+    redraw();
+
+    // 删除该条产品
+    cartUl.on("click", ".del-btn", function () {
+        let del = confirm("确定删除？");
+        if (!del) {
+            return;
+        }
+        let id = $(this).parentsUntil(".cart-box", "li").attr("data-gid");
+        myCookie.removeItem(id);
+
+        let cookieId = myCookie.getItem("id") || "{}";
+        cookieId = JSON.parse(cookieId);
+        cookieId.id = cookieId.id || [];
+        let index = cookieId.id.indexOf(id);
+        cookieId.id.splice(index, 1);
+
+        if (cookieId.id.length) {
+            console.log(111);
+            myCookie.removeItem("id");
+        } else {
+            let strId = JSON.stringify(cookieId);
+            myCookie.setItem("id", strId);
+        }
+        redraw();
     })
+
+    // 加一减一
+    cartUl.on("click", ".cjb-single-jian", function () {
+        let id = $(this).parentsUntil(".cart-box", "li").attr("data-gid");
+        let cookieBook = JSON.parse(myCookie.getItem(id));
+        cookieBook.num = cookieBook.num * 1 - 1;
+        if (cookieBook.num < 1) cookieBook.num = 1
+        myCookie.setItem(`${id}`, JSON.stringify(cookieBook), 10);
+        redraw();
+    })
+    cartUl.on("click", ".cjb-single-jia", function () {
+        let id = $(this).parentsUntil(".cart-box", "li").attr("data-gid");
+        let cookieBook = JSON.parse(myCookie.getItem(id));
+        cookieBook.num = cookieBook.num * 1 + 1;
+        if (cookieBook.num < 1) cookieBook.num = 1
+        myCookie.setItem(`${id}`, JSON.stringify(cookieBook), 10);
+        redraw();
+    })
+
+    $(".cart-js-btn").click(() => location.href = "./cart.html");
 </script>

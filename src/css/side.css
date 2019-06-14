@@ -565,3 +565,116 @@
     background: #a8a8a8 url(../img/icon/kefu_pop_phone.png) 5px 5px no-repeat;
     border-radius: 0 5px 5px 0;
 }
+
+.cart-fixed-box ul li {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px 20px 10px 70px;
+}
+.cfb-img-box {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #dedede;
+}
+.sidebar-wrap .sidebar-main .sidebar-cart a {
+    display: block;
+    text-decoration: none;
+}
+.cfb-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.cgi-title {
+    text-align: left !important;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #666;
+    line-height: 15px;
+}
+.cgi-title:hover{
+    color:#cc0000;
+}
+.cart-box .cgi-price-box {
+    overflow: hidden;
+    text-align: left;
+    padding-top: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.cpb-jj-box {
+    overflow: hidden;
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sidebar-wrap .sidebar-main .sidebar-cart span {
+    line-height: 20px;
+    display: inline-block;
+    min-width: 14px;
+    margin-top: 5px;
+    margin-left: -5px;
+    padding: 0 3px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #e6186f;
+    text-align: center;
+}
+
+.cart-box .cgi-price-box .price {
+    background: none !important;
+    color: #f1156f !important;
+    padding: 0!important;
+    margin: 0!important;
+    vertical-align: middle;
+}
+.sidebar-wrap .sidebar-main .sidebar-cart a {
+    display: block;
+    text-decoration: none;
+}
+
+.cart-box .cgi-price-box .del-btn {
+    vertical-align: middle;
+    color: #13489d;
+    float: right;
+    display: none !important;
+}
+.cart-box ul li:hover .del-btn {
+    display: inline-block !important;
+}
+.cpb-jj-box input.goods-number {
+    width: 33px;
+    height: 20px;
+    border: 0;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+    outline: none;
+    color: #666;
+}
+
+.cpb-jj-box span, .cpb-jj-box input {
+    float: left;
+}
+.cpb-jj-box span.cjb-jia, .cpb-jj-box span.cjb-jian {
+    background-color: #fff!important;
+    width: 16px;
+    height: 20px;
+    border: 1px solid #dedede;
+    line-height: 18px!important;
+    color: #666!important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    padding: 0!important;
+    margin: 0!important;
+}

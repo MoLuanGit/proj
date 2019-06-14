@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/side.css">
+    <link rel="stylesheet" href="../css/footer.css"> -->
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div class="header-wrap"></div>
+
+    <div class="b_wp">
+        <div class="b_flow">
+            <div class="pos">
+                <span>您当前的位置：</span> <a href="/src/index.html">首页</a> &gt; 购物车
+            </div>
+            <div class="m_pro m_cart">
+                <span class="p1"></span>
+                <span class="p2"></span>
+            </div>
+            <table width="1190" border="0" cellspacing="0" cellpadding="0" align="center" class="cart_t">
+                <tbody>
+                    <tr>
+                        <th style="text-align: left;" width="20">
+                            <input name="checkAll" type="checkbox" checked="checked">
+                        </th>
+                        <th width="375" class="pad">商品</th>
+                        <th width="180">会员价(元)</th>
+                        <th width="163">优惠</th>
+                        <th width="88">数量</th>
+                        <th width="88">小计</th>
+                        <th width="110">操作</th>
+                    </tr>
+                </tbody>
+            </table>
+            <!--列表title end-->
+
+            <form action="" method="post" name="cart_form" id="cart_form">
+                <!--购物车列表 start-->
+                <div class="shopper_n" id="100144">
+                    <div class="shopChoose">
+                        <input type="checkbox" checked="" value="shop" name="checkbox"
+                            cdn_url="http://www.800pharm.com/shop/" shopcode="100144" class="shopCheckAll">
+                        药店：<a href="http://www.800pharm.com/shop/index-100144.html" target="_blank">惠州民信堂大药房</a>
+                    </div>
+                </div>
+                <table width="1188" border="0" cellspacing="0" cellpadding="0" align="center" class="cart_list">
+                    <tbody>
+                        <tr id="tr_14242230">
+                            <td style="text-align: left; padding-left: 10px; border: 0px;" width="20" valign="top">
+                                <input type="checkbox" checked="" name="checkbox"
+                                    cdn_url="http://www.800pharm.com/shop/" class="checkbox_100144"
+                                    cname="checkbox_100144" value="p_1424223_100144" pids=",1424223">
+                            </td>
+                            <td width="375" style="border: 0px;">
+                                <input class="drugProName" type="hidden" value="常菁茶">
+                                <input class="shopcode" type="hidden" value="100144">
+                                <div class="b_pord">
+                                    <p class="pic">
+                                        <a href="http://www.800pharm.com/shop/product-100144-1424223.html">
+                                            <img
+                                                src="http://img.800pharm.com/images//pms/upload/images/original/102017/30120/c283530f15943a33aca0cbbdd74b5fd71affa590.jpg">
+                                        </a>
+                                    </p>
+                                    <p class="pord_n">
+                                        <a href="http://www.800pharm.com/shop/product-100144-1424223.html"
+                                            target="_blank">碧生源牌常菁茶 减肥茶2.5g/袋*25袋常润顽固型瘦腿瘦肚子燃脂润肠通便</a>
+                                    </p>
+                                    <p class="other">
+                                        <span class="unit">
+                                        </span>
+                                        <span class="spec">
+                                        </span>
+                                    </p>
+                                </div>
+                            </td>
+                            <td width="180" style="border: 0px;">
+                                <div class="b_price">
+                                    <p class="m_price">
+                                        市场价：<del>￥60.00</del>
+                                    </p>
+                                    <p class="s_price">
+                                        会员价：<span class="price">￥49.80</span>
+                                    </p>
+                                </div>
+                            </td>
+                            <td width="163" style="border: 0px;">
+                                <p class="pref">
+                                </p>
+                            </td>
+                            <td width="88" style="border: 0px;">
+                                <div class="mo_num">
+                                    <span class="rec"
+                                        onclick="modCheckQuantity('0','1424223','http://www.800pharm.com/shop/','0','0','100144','0','0')"></span>
+                                    <input type="text" value="2" class="num" id="1424223_num_0" maxlength="9"
+                                        onkeyup="value=value.replace(/[^\d]/g,'')"
+                                        onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"
+                                        onfocus="selectText('1424223_num_0')"
+                                        onblur="modCheckQuantity('3','1424223','http://www.800pharm.com/shop/','0','0','100144','0','0')">
+                                    <span class="add"
+                                        onclick="modCheckQuantity('1','1424223','http://www.800pharm.com/shop/','0','0','100144','0','0')"></span>
+                                </div>
+                                <span id="testKucun" class="cart_storage_tips">库存494件</span>
+                            </td>
+                            <td width="88" style="border: 0px;">
+                                <p class="s_total">
+                                    ￥<span class="st" id="14242230">99.60</span>
+                                </p>
+                            </td>
+                            <td width="110" style="border: 0px;">
+                                <span class="opt">
+                                    <a class="col"
+                                        href="javascript:addFavory('http://www.800pharm.com/shop/','100144','1424223')">关注</a>
+                                </span>
+                                <span class="opt">
+                                    <a
+                                        href="javascript:delPro('1424223','http://www.800pharm.com/shop/','0','0','100144','0')">删除</a>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <div class="b_total">
+                <div class="total_choose">
+                    <input type="checkbox" name="checkAll" checked="checked"> <label>全选</label>
+                    <a href="javascript:;">删除</a>
+                    <a href="javascript:;">关注</a>
+                </div>
+                <p class="total">
+                    商品原总价（不含运费）：<span class="t_price" id="allTotal">￥99.60</span>
+                </p>
+                <input type="submit" id="buy_btn" class="buy_btn" value="去结算">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer-wrap" class="footer-wrap"></div>
+    <div class="sidebar-wrap"></div>
+
+</body>
+<!-- <script src="../js/common.js"></script>
+<script src="../lib/jquery-3.4.1.js"></script> -->
+<script src="../js/cart.js"></script>
+
+</html>

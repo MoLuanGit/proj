@@ -1,4 +1,8 @@
 $(function () {
+    $(".header-wrap").load("../tpl/header.html");
+    $("#footer-wrap").load("../tpl/footer.html");
+    $(".sidebar-wrap").load("../tpl/side.html");
+    
     let urlPage = location.search.substr(1);
     let nowPage = urlPage.split("=")[1] || 1;
 
@@ -49,7 +53,7 @@ $(function () {
                     <span class="pdPrice">
                         <b>￥</b>${ele.price}
                     </span>
-                    <a class="goNextBtn" href="../html/goods?id=${ele.id}">查看商品详情 &gt;</a>
+                    <a class="goNextBtn" href="../html/goods.html?id=${ele.id}">查看商品详情 &gt;</a>
                 </div>`;
                 });
                 $("#search_result").append(html);

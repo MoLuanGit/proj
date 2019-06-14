@@ -1,4 +1,8 @@
 $(function () {
+    $(".header-wrap").load("/src/tpl/header.html");
+    $("#footer-wrap").load("/src/tpl/footer.html");
+    $(".sidebar-wrap").load("/src/tpl/side.html");
+
     let ycNav = $("#yc-nav-box");
     let ycNavItems = $("#yc-nav-box .yc-nav-item");
     let navItemsBox = $(".nav-item-box");

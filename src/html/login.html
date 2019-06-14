@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/login_register.css">
     <link rel="stylesheet" href="../css/protocol.css">
+    
 </head>
 
 <body>
-    <include src="../tpl/header.html"></include>
+    <div class="header-wrap"></div>
+
     <!-- 主体 -->
     <div class="w1190" id="classify">
         <div class="b_login mod_reglog" style="background-image:url(../img/20190608090208_683.jpg)">
@@ -145,13 +147,14 @@
             </div>
         </div>
     </div>
-    <include src="../tpl/protocol.html"></include>
-    <include src="../tpl/side.html"></include>
-    <include src="../tpl/footer.html"></include>
+
+    <div class="pop" id="protocol-pop" style="display: none;"></div>
+    <div id="footer-wrap" class="footer-wrap"></div>
+    <div class="sidebar-wrap"></div>
+
 </body>
 <script src="../js/common.js"></script>
 <script src="../lib/jquery-3.4.1.js"></script>
-<script src="../lib/include.js"></script>
 <script src="../js/login_register.js"></script>
 
 </html>
