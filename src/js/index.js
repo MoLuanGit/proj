@@ -3,6 +3,8 @@ $(function () {
     $("#footer-wrap").load("/src/tpl/footer.html");
     $(".sidebar-wrap").load("/src/tpl/side.html");
 
+    let lazy = new LoadingLazy("img"); //图片懒加载
+
     let ycNav = $("#yc-nav-box");
     let ycNavItems = $("#yc-nav-box .yc-nav-item");
     let navItemsBox = $(".nav-item-box");
@@ -92,5 +94,5 @@ $(function () {
         $("#f-link .ft").eq(index).show();
     });
 
-    
+
 });

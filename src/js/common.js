@@ -50,3 +50,41 @@ let myCookie = {
         return res;
     }
 };
+
+class LoadingLazy{
+    constructor(ele){
+        //获取所有图片
+        this.imgLists = Array.from(document.querySelectorAll(ele));
+        this.init();
+    }
+    init(){
+        this.canLoading();
+        this.bindEvent();
+    }
+    getPosition(ele){
+        let position = ele.getBoundingClientRect();
+        let clientHeight = window.innerHeight;
+        //当图片快要出现在眼前，返回“处”，让图片调用加载的方法
+        return position.top <= clientHeight - 100;
+    }
+    loadingImg(ele,i){
+        //获取设置好的图片路径
+        let src = ele.getAttribute("data-original");
+        ele.src = src;
+        // 删除已经加载的图片
+        this.imgLists.splice(i,1);
+    }
+    canLoading(){
+        let imgLists = this.imgLists;
+        for(let i = imgLists.length;i--;){
+            // 如果返回的是“处”，就加载
+            this.getPosition(imgLists[i]) && this.loadingImg(imgLists[i],i);
+        }
+    }
+    bindEvent(){
+        window.addEventListener("scroll",()=>{
+            //如果还有图片没加载完，继续判断是否可加载
+            this.imgLists.length && this.canLoading();
+        })
+    }
+}
