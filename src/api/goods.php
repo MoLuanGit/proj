@@ -18,6 +18,9 @@
             "src"=>"img/list/53a485ff5d9bb6b047fc81643df42c40f02816d5.jpg",
             "madeIn"=>"池州辰泰茶业有限公司",
             "price"=>39.00,         
+            "marketPrice"=>50.00,
+            "inventory"=>123,
+            "effect"=>"养颜美容"
         ],
         [
             "id"=>2,

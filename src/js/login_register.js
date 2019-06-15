@@ -156,6 +156,7 @@ $(function () {
 
     });
 
+
     // 点击注册
     $(".sign-btn-submit").click(function () {
         oPhone = $(".phone:visible");
@@ -190,7 +191,6 @@ $(function () {
             },
             "success": function (res, status, xhr) {
                 if (status == "success") {
-                    console.log();
                     if (xhr.responseText == "ok") {
                         alert("注册成功！请登录");
                         location.href = "../html/login.html";
@@ -245,8 +245,10 @@ $(function () {
             data: queryString,
             success(res) {
                 if (JSON.parse(res) == "success") {
+                    alert("登录ok");
                     location.href = "/src/index.html";
                 } else {
+                    oTishi.show().children("p").text(JSON.parse(res));
                     myCookie.clear();
                 }
             }

@@ -82,13 +82,16 @@ $(function(){
                 </tbody>
             </table>`;
             });
-            oForm.html(html);   
-            let allPrice = 0;
-            $(".st",($(".smallCheck:checked").parents("tr"))).each(function () {
-                allPrice += Number($(this).text());
-            });
-            $("#allTotal").text(`￥${allPrice.toFixed(2)}`);
+            oForm.html(html);  
+            totolPrice();
         }
+    }
+    function totolPrice(){
+        let allPrice = 0;
+        $(".st",($(".smallCheck:checked").parents("tr"))).each(function () {
+            allPrice += Number($(this).text());
+        });
+        $("#allTotal").text(`￥${allPrice.toFixed(2)}`);
     }
     render();
 
@@ -103,6 +106,7 @@ $(function(){
             $("input",($(this).parents(".shopper_n").next())).prop("checked",false);
             $(".b_total input,.allCheck").prop("checked",false);
         }
+        totolPrice();
     });
     oForm.on("click",".smallCheck",function(){     
         if($(this).is(":checked")){
@@ -114,6 +118,7 @@ $(function(){
             $("input",($(this).parents("table").prev())).prop("checked",false);
             $(".b_total input,.allCheck").prop("checked",false);
         }
+        totolPrice();
     });
     $("input[name='checkAll']").click(function(){
         if($(this).is(":checked")){
@@ -122,7 +127,8 @@ $(function(){
         }else{
             $("input[name='checkAll']").prop("checked",false);
             $("input",oForm).prop("checked",false);
-        }       
+        }     
+        totolPrice();  
     });
 
     // 删除该条产品

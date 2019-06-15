@@ -13,8 +13,8 @@ $(function () {
         success(res) {
             let result = JSON.parse(res);
 
-            $(".price_shang").html(`<em>￥</em>${result.price}0`);
-            $(".price_shi").html(`￥${result.marketPrice}.00`);
+            $(".price_shang").html(`<em>￥</em>${(result.price).toFixed(2)}`);
+            $(".price_shi").html(`￥${(result.marketPrice).toFixed(2)}`);
             $(".fontNum #STORAGE").text(result.inventory);
             $(".idNum").text(result.id);
             $(".main_mid h1").text(result.effect);

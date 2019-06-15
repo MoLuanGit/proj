@@ -3,7 +3,7 @@
    function query($sql){
        //empty 判断一个变量的值是否为空
        global $conn;
-       $conn=mysqli_connect('localhost','root','123');//连接数据库服务器
+       $conn=mysqli_connect('localhost','root','root');//连接数据库服务器
        mysqli_select_db($conn,'bbf');//选中要操作的数据库
        mysqli_query($conn,'set names utf8');//执行一个SQL语句
        $result=mysqli_query($conn,$sql);//设置指定编码格式

@@ -36,7 +36,7 @@ $(function () {
         let index = $(this).index();
         let tempTop = arrTop[index];
         ycNavItems.eq(index).addClass("cur").siblings().removeClass("cur");
-        $("body,html").stop(true).animate({
+        $("body,html").stop().animate({
             scrollTop: tempTop + 220
         }, 200);
     });
